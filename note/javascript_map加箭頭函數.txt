@@ -1,0 +1,1 @@
+let lis_no = lis_m.map(x => String.fromCharCode(x)); //判斷是否有選擇

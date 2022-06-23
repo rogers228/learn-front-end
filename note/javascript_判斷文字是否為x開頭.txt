@@ -1,0 +1,3 @@
+    let mycode = window.location.href.replace('http://yshr.asuscomm.com/pdmodel/','');
+    console.log(mycode);
+    if (mycode.indexOf('yeoshe') == 0){

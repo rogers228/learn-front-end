@@ -1,0 +1,10 @@
+https://www.javascripttutorial.net/dom/attributes/get-the-value-of-an-attribute/
+
+        let lists = document.querySelectorAll('.tour_list');
+        lists.forEach((list)=>{
+            let myid = list.getAttribute('id');
+            console.log('myid:'+myid);
+        })
+
+
+取得自訂屬性 未使用

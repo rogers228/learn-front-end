@@ -1,0 +1,5 @@
+for (let dis_value of lis_dism){
+    console.log('dis_value:'+dis_value)
+}
+
+使用 for of 可保證依照順序

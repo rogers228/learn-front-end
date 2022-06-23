@@ -1,0 +1,3 @@
+        window.addEventListener("load", header_animation2);
+        window.addEventListener("resize", header_animation2, true);
+        window.addEventListener("DOMContentLoaded", after_load_handler);

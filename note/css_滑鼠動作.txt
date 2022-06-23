@@ -1,0 +1,31 @@
+5種動作
+active 滑鼠點選下去
+hover 滑鼠停在上面
+link 有超連結連結
+visited 拜訪過
+focus
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+
+
+
+
+

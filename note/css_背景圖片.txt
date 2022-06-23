@@ -1,0 +1,48 @@
+background-image: url( ' 圖片網址 ' );
+
+background-repeat:no-repeat;　//背景圖片不要重覆顯示（僅顯示一次）
+
+
+background-color: 背景顏色;
+background: linear-gradient(74deg, rgb(240, 240, 245), rgb(93, 129, 161)) //背景漸層顏色
+
+background-attachment:fixed;　//背景圖片位置固定
+background-attachment:scroll  //背景圖片位置跟隨滾輪移動
+
+/位置
+background-position: top; //靠上
+background-position: left;
+background-position:center;　//背景圖片水平位置與垂直位置均置中對齊
+background-position: 25% 75%;  //left top  左起  上起
+background-position: bottom 50px right 100px;  下起 右起
+
+
+/背景圖片大小
+background-size: contain;  //縮放至容器 並填滿
+
+background-size: contain; 
+background-repeat: no-repeat;  //縮放至容器 不要填滿(僅一張).
+
+background-size: cover; //依照原始大小裁剪
+
+background-size: 30%; 縮放百分比
+
+background-size: 50% auto;  保持比例拉伸至
+background-size: 200px 100px; 破壞比例 拉伸至固定大小
+
+
+
+/圖片遮罩模糊
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/backdrop-filter
+
+backdrop-filter: blur(2px); 模糊
+backdrop-filter: brightness(60%);   亮度
+backdrop-filter: contrast(40%); 對比度
+backdrop-filter: drop-shadow(4px 4px 10px blue); 陰影
+backdrop-filter: grayscale(30%); 灰度
+backdrop-filter: hue-rotate(120deg); 色調旋轉
+backdrop-filter: invert(70%); 反轉
+backdrop-filter: opacity(20%); 不透明度
+backdrop-filter: sepia(90%); 棕褐色
+backdrop-filter: saturate(80%); 棕褐色
+backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%); 一次多種

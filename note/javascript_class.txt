@@ -1,0 +1,13 @@
+
+將html Element 的 class 當成字串處理
+document.getElementById(cid).className = "button"
+
+
+將html Element 的 class 當成list處理，更方便
+document.getElementById(btnid).classList.add("selected");
+有add, remove, toggle 
+
+判斷是否class 存在某種樣式
+element.classList.contains(className);
+
+https://developer.mozilla.org/zh-TW/docs/Web/API/Element/classList

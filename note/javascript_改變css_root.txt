@@ -1,0 +1,14 @@
+function test1(){
+    document.documentElement.style.setProperty('--middle_width', '700px');
+}
+
+function test2(){
+    document.documentElement.style.setProperty('--middle_width', '900px');
+}
+
+
+
+// css
+// :root {
+//   --middle_width: 900px;
+// }

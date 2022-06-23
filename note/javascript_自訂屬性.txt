@@ -1,0 +1,9 @@
+自訂屬性
+
+let supply_div = `<div id = "supply_${btn_m}" data-svalue="${supply}">${supply_text}</div>`
+tooltip.innerHTML= text +'<br>'+ supply_div; //設定工具提示
+
+
+取得自訂屬性
+    let supply_element = document.getElementById('supply_9');
+    console.log(supply_element.getAttribute('data-svalue'));

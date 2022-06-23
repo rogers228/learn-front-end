@@ -1,0 +1,1 @@
+var size = Object.keys(myObj).length;

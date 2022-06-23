@@ -1,0 +1,4 @@
+window.addEventListener("DOMContentLoaded", function() {
+    console.log("DOMContentLoaded");
+    main_after_load();
+}, false);

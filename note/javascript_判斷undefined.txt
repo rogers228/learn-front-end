@@ -1,0 +1,3 @@
+    if (typeof cookie_get('testy') === 'undefined'){
+        console.log('no key');
+    }

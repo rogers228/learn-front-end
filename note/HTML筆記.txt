@@ -1,0 +1,32 @@
+註解
+<!這裡是HTML的註解>
+/*這裡是CSS的註解*/
+/*這裡是JavaScript的註解*/
+//這裡是JavaScript的單行註解
+
+標記
+有2種格式
+1.<標籤電腦看>
+2.<標籤電腦看>人看的<電腦看的>
+
+<head></head>文件標題
+<meta charset = "utf-8"> 編碼
+<meta name = "keywords" content = "HTML,ASP"> 關鍵字:HTML,ASP
+
+<title>Simple Html Page</title> 標題
+<div>165415615616</div> 自訂區塊
+<div class = "news">165415615616</div> 自訂區塊 定義calss=news
+<div id = "id001">165415615616</div> 自訂區塊 定義id  id必須為文字
+<p> 換行(大的段落)
+<br> 換行
+
+JavaScript document對象內容
+document.write 動態寫入內容
+
+全域變數
+在最上方
+var a = 1
+
+區域變數
+在function中
+var a = 1

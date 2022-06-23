@@ -1,0 +1,5 @@
+必須以data-開頭，才會合法
+
+data-model="prius"
+
+<div id="mydiv" data-model="prius">

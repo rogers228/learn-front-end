@@ -1,0 +1,6 @@
+<img alt="picture" src="head_2.jpg" loading="lazy">
+
+
+loading="lazy"
+
+圖片到使用者視界時才載入，大幅減少讀取時間

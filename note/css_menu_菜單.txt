@@ -1,0 +1,17 @@
+css菜單實現如下
+
+1.html  建立 checkbox  _onclick_面對js func  _css設定隱藏
+2.html  建立 label 裡面有for屬性 連動 checkbox 此label面對使用者
+3.js func 設定 style.display  none or block 的開關
+
+function burger_click(){
+    let checkbox = document.getElementById("burger_checkbox");
+    let sider = document.getElementById("layout3_sider");
+    if (checkbox.checked){
+        sider.style.display = "block";
+    }
+    else{
+        sider.style.display = "none";
+    }
+}
+

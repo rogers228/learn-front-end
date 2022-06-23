@@ -1,0 +1,9 @@
+https://sites.google.com/site/coolteazhuanti/html/overflow
+
+
+overflow 常用屬性值
+overflow: auto; //預設會自動使用捲軸
+overflow:visible; //顯示的文字或圖片會直接超出範圍，不使用捲軸。
+overflow:hidden; //自動隱藏超出的文字或圖片。
+overflow:scroll; //自動產生捲軸。
+overflow:inherit; //繼承自父元素的可見性

@@ -1,0 +1,5 @@
+    let keys  = Object.keys(product_kd);
+    for(let i = 0; i < keys.length; i++){
+        console.log(keys[i]);
+        console.log(product_kd[keys[i]]);
+    }

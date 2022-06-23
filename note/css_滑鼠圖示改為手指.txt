@@ -1,0 +1,4 @@
+cursor: pointer;
+user-select: none;
+
+適合div作為按鈕時，不選取以免破壞樣式

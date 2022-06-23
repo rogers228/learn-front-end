@@ -1,0 +1,3 @@
+    let select_m = 'model_' + '3';
+    console.log('select_m:' + select_m);
+    model_selected[select_m] = '';

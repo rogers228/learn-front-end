@@ -1,0 +1,6 @@
+反引號`可以直接換行，類似python '''     
+	html += fmat(`
+                <div id="tour_{0}" class="product_tour" onclick="select_menu(this.id)">{1}
+                    <img alt="arrow" class="icon_tour_down" id="tour_img_{0}"/>
+                </div>
+                <ul id="tour_menu_{0}" class="tour_menu">`, i+1, keys[i]);

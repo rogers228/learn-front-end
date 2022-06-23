@@ -1,0 +1,15 @@
+for (let m in model_disable) {
+}
+
+dictionary 使用 for in  不保證順序
+主要m為字串名稱。不照順序是沒問題的
+
+
+
+以下可保障順序
+    let keys  = Object.keys(model_memo[model_m])
+    for(var i = 0; i < keys.length; i++){
+        console.log('i:'+ i);
+        console.log(keys[i]);
+        console.log(model_memo[model_m][keys[i]]);
+    }

@@ -1,0 +1,7 @@
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_text
+
+text 使用 vw 單位
+
+view width 當前視窗寬度的比例
+
+1vw = 1% of viewport width

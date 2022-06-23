@@ -1,0 +1,25 @@
+//這裡是CSS的單行註解
+/*
+這裡是CSS的多行註解
+這裡是CSS的多行註解
+calc(100%-250px
+*/
+
+. 代表Class
+# 代表id
+$ 宣告
+calc(100%-250px) 單位運算
+
+每行程式結尾要加分號;
+
+$back_color:#1600DF; /*宣告公用變數?/
+
+.sa{
+	color:#1600DF;
+	font-size: 16px;
+	font-weight: 400;}
+	
+#id1{
+	color:#00ff00;
+	font-size: 16px;
+	font-weight: 400;}.

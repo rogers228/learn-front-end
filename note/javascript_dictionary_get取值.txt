@@ -1,0 +1,6 @@
+    let dic = model_ftrsur['model_'+model_m];
+    if (!(typeof dic === 'undefined')) {
+        // console.log(dic);
+        result = Object.keys(dic).includes(model_value)? dic[model_value][local_value['language']] : '';
+        console.log(result);      
+    }

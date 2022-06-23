@@ -1,0 +1,6 @@
+在html的引用js加上版本
+瀏覽器會自動檢查暫存檔(暫存的js文檔)
+
+model.js?version=0.32
+
+<script src="{{ url_for('static',filename='javascript/product_model.js?version=0.32',_external=True )}}"></script>

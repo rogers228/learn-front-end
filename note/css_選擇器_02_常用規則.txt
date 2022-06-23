@@ -1,0 +1,11 @@
+前綴符號
+
+
+  (無)代表 標籤
+. 代表Class
+# 代表id
+
+https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+子選擇
+X Y  (X下的Y)

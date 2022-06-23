@@ -1,0 +1,13 @@
+立即函數
+
+1.立刻執行的函數或方法 不用另外呼叫,通常拿來當作main()包裹程式碼
+
+2.包裹後，可以減少全域變數的汙染
+
+3.最前方加上分號，可以防止 與其他程式碼接在一起，沒有分號也可
+
+IIFE全名為Immediately Invoked Functions Expressions
+
+;(function(){
+    console.log('test run')
+})();

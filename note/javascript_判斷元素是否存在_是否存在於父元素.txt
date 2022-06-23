@@ -1,0 +1,10 @@
+function isExistsByID(myid){
+    let element =  document.getElementById(myid);
+    return (typeof(element) != 'undefined' && element != null);
+}
+
+function isChildInParent(parentid, childid) {
+    let parent =  document.getElementById(parentid);
+    let child =   document.getElementById(childid);
+    return (parent.contains(child));
+}

@@ -1,0 +1,1 @@
+let select_value = document.getElementById(myid).innerHTML;

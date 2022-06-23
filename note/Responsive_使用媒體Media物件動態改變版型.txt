@@ -1,0 +1,6 @@
+使用媒體Media物件動態改變版型
+
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query
+
+寫在css中
+語法精神類似if條件式 非常方便

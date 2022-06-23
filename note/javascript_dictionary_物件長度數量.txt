@@ -1,0 +1,1 @@
+let sum = Object.keys(model_selected).length;

@@ -1,0 +1,3 @@
+    let soMany = 10;
+    let soMany2 = 8;
+    console.log(`This is ${soMany} times easier ${soMany2} !`);

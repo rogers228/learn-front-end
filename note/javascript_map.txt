@@ -1,0 +1,1 @@
+let lis_asc = lis_s.map(x =>  x.charCodeAt(0));
