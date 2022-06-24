@@ -25,6 +25,9 @@ console.log(animals.slice(2, -1));
 console.log(animals.slice());
 // expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
 
+list.shift() #刪除第一個元素，並返回第一個元素
+list.pop() #刪除最後一個元素，並返回最後一個元素
+
 
 
 
