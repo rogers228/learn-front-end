@@ -1,0 +1,7 @@
+const months = ['Jan', 'March', 'April', 'June'];
+
+// 插入位Feb 至 index 1   0代表刪除0個元素  不使用
+months.splice(1, 0, 'Feb'); 
+
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "June"]
