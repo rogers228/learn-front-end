@@ -9,10 +9,11 @@ window.addEventListener('DOMContentLoaded', function (){
 
 function get_url_parameter(){
     let myurl = window.location.href;
-    if (myurl.includes('#')){
-        return window.location.href.split('#').pop()
-    }
-    else{
-        return ''
-    }
+    // if (myurl.includes('#')){
+    //     return window.location.href.split('#').pop()
+    // }
+    // else{
+    //     return ''
+    // }
+    return (myurl.includes('#'))? myurl.split('#').pop(): '';
 }
