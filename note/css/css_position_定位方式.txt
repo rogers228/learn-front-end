@@ -11,7 +11,6 @@ top: 40px; left: 40px;
 position: absolute;  相對於以定位的父元素  若父元素未定位 則 相對於html
 top: 40px; left: 40px;
 
-
 position: sticky;
 top: 20px;
 

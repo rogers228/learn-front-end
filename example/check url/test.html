@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
-    <script src="test.js"></script> <!-- front end render -->
+    <link rel="stylesheet" href="test.css"/>
+    <script src="test.js"></script> 
 </head>
 <body>
-  <h1>網址列更新觸發事件</h1>
-  <ul>
-    <li><a href="#">home</a></li>
-    <li><a href="#fsaiojfdoi54/s5df1dsad51f">test1</a></li>
-    <li><a href="#fsafd=d541?fadsf>dfa2">test2</a></li>
-    <li><a href="#35*fd">test3</a></li>
-  </ul>
+  <div id="layout0_1" class="layout0_wall" data-router="home">
+    <h1>網址列更新觸發事件</h1>
+    <p>可以做為手刻前端路由</p>
+    <ul>
+      <li><a href="#home">home</a></li>
+      <li><a href="#model/sfsd">test1</a></li>
+      <li><a href="#spec/d541?fadsf>dfa2">test2</a></li>
+      <li><a href="#about">test3</a></li>
+    </ul>
+  </div>    
+  <div id="layout0_2" class="layout0_wall" data-router="model">
+    <a href="#home">home</a>
+  </div>
+  <div id="layout0_3" class="layout0_wall" data-router="spec">
+    <a href="#home">home</a>
+  </div>
+  <div id="layout0_4" class="layout0_wall" data-router="about">
+    <a href="#home">home</a>
+  </div>
+
+
 </body>
 </html>
