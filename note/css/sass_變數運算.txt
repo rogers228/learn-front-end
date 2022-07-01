@@ -1,0 +1,1 @@
+calc(#{$main_width} - 300px)

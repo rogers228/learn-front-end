@@ -1,0 +1,2 @@
+1. position 定位屬性不可為 static
+2. 在同一層中的 z-index 進行比較 大的在上
