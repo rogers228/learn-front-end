@@ -1,0 +1,7 @@
+將sass編譯後，再由js取css的變數
+sass
+
+:root{ 
+  --data-main_width: #{$main_width};
+}
+
