@@ -1,7 +1,20 @@
 將sass編譯後，再由js取css的變數
+
 sass
 
 :root{ 
   --data-main_width: #{$main_width};
 }
+
+
+css
+:root {
+  --data-main_width: 950px;
+}
+
+
+js
+let ans = getComputedStyle(document.documentElement)
+    .getPropertyValue('--data-main_width');
+console.log(ans)
 
