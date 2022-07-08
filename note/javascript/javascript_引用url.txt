@@ -1,0 +1,8 @@
+https://stackoverflow.com/questions/1368264/how-to-extract-the-hostname-portion-of-a-url-in-javascript
+
+window.location.host : you'll get sub.domain.com:8080 or sub.domain.com:80
+window.location.hostname : you'll get sub.domain.com
+window.location.protocol : you'll get http:
+window.location.port : you'll get 8080 or 80
+window.location.pathname : you'll get /virtualPath
+window.location.origin : you'll get http://sub.domain.com *****
