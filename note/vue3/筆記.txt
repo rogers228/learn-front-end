@@ -1,0 +1,15 @@
+
+vue特殊指令
+
+v-bind  綁定 html標籤屬性 與資料
+v-on    事件
+v-model 綁定 使用者輸入 與 資料
+v-if
+v-for
+
+關鍵字
+
+mount      山  渲染
+props      接收
+template   樣板
+components 組件
