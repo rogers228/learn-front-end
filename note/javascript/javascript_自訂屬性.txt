@@ -7,3 +7,11 @@ tooltip.innerHTML= text +'<br>'+ supply_div; //設定工具提示
 取得自訂屬性
     let supply_element = document.getElementById('supply_9');
     console.log(supply_element.getAttribute('data-svalue'));
+
+------------------------------------
+    console.log('test2');
+    const nodes = document.querySelectorAll('[data-ch]'); //尋找自訂屬性 data-ch
+    console.log(nodes);
+    for (let i = 0; i < nodes.length; i++) {
+        nodes[i].innerHTML = nodes[i].dataset['ch']; //取出自訂屬性的值
+    }

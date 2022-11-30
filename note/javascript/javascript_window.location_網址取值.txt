@@ -1,0 +1,7 @@
+https://css-tricks.com/example/index.html?s=flexbox
+
+window.location.origin     https://css-tricks.com
+window.location.protocol   http:
+window.location.host =     css-tricks.com
+window.location.pathname = /example/index.html
+window.location.search =   ?s=flexbox
