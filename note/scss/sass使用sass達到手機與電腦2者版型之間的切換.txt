@@ -1,0 +1,29 @@
+使用sass達到手機與電腦2者版型之間的切換
+且撰寫容易
+
+
+1.
+在 _variable.scss 統一儲存變數，以利後續修改容易尋找
+$mobile_width: 650px; //轉為手機排版的寬度
+
+2. 建立_mixin_mobile.scss
+// mobile
+@mixin mobile{
+  @media(max-width: $mobile_width){ //<= 750
+    @content;
+  }
+}
+
+3. 在任何元素scss階可引用
+#navbar_s{
+  padding: 0px;
+  display: flex; //流水
+  flex-direction: row; //主軸方向 水平
+  justify-content: space-between; //主軸對齊 flex-start | flex-end | center | space-between靠外 | space-around;  
+  background-color: $color_navbar;
+  font-size: $font_size_middle;
+
+  @include mobile{
+    display:none;
+  }
+}

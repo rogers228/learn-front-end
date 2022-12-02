@@ -1,0 +1,2 @@
+# 漸層產生器
+# http://www.colinkeany.com/blend/

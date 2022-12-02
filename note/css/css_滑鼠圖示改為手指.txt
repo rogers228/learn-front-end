@@ -1,4 +1,7 @@
-cursor: pointer;
+cursor: pointer; // 手指
 user-select: none;
 
 適合div作為按鈕時，不選取以免破壞樣式
+
+
+cursor: default; // 預設指標

@@ -7,5 +7,11 @@ aside   側邊
 footer  尾部
 details 其他信息
 
-title 標題
-column 欄
+
+無意義結構標籤
+div   區塊
+span  行內元素
+
+
+title 標題  不可用  與 html 頭檔的title 衝突
+column 欄   不可用  與 css中的屬性  衝突

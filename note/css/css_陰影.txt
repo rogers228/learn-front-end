@@ -1,0 +1,13 @@
+box-shadow: 2px 4px #999; //陰影
+
+box-shadow:inset 0px 1px 0px 0px #00334d; //內部陰影白色 始得有立體感 !!
+
+
+參數
+x水平  y垂直  蘊開  偏移  顏色
+
+inset 內部陰影
+
+text-shadow:0px 1px 0px #ffffff; //文字陰影
+
+https://www.webdesigns.com.tw/text-shadow.asp
