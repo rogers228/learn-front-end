@@ -4,7 +4,7 @@ let supply_div = `<div id = "supply_${btn_m}" data-svalue="${supply}">${supply_t
 tooltip.innerHTML= text +'<br>'+ supply_div; //設定工具提示
 
 
-取得自訂屬性
+取得自訂屬性  dataset
     let supply_element = document.getElementById('supply_9');
     console.log(supply_element.getAttribute('data-svalue'));
 
@@ -15,3 +15,10 @@ tooltip.innerHTML= text +'<br>'+ supply_div; //設定工具提示
     for (let i = 0; i < nodes.length; i++) {
         nodes[i].innerHTML = nodes[i].dataset['ch']; //取出自訂屬性的值
     }
+
+
+取得自訂屬性  dataset
+
+<div class="lv_row" id="{{ rd[0] }}" data-method="{{ method }}" onclick="form_select_record(this.id, this.dataset['method'])">
+    {{ rd[1] }}
+</div>
