@@ -8,4 +8,4 @@
 https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
 子選擇
-X Y  (X下的Y)
+X Y  (X下的Y)  或 (X下N層的Y)
