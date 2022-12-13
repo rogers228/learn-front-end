@@ -1,0 +1,12 @@
+    //page
+    let walls = document.querySelectorAll('.layout1');
+    walls.forEach((node)=>{
+        let e = document.getElementById(node.id)
+        let router = e.getAttribute('data-router');
+        // console.log(router);
+        e.style['z-index'] = `${z_index}`;
+        if (router == params['page']){
+            // console.log('301');
+            e.style['z-index'] = `${z_index + 2}`;
+        }
+    });
