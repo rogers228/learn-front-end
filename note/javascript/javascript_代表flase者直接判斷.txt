@@ -1,0 +1,19 @@
+在 js 中 以下代表flase
+
+null
+0
+NaN (not a number)
+''
+""
+
+建議直接判斷
+variable
+
+if (!variable)
+
+或者另寫函數 自行定義
+
+function isNull(v){
+	if (v == null) || ()...
+	return True
+}

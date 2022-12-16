@@ -1,0 +1,11 @@
+
+$(美元符號) 與 _(下底線) 26的字母大小寫，共54個字，為js變數合法字元
+
+$ 等同 document.getElementById（） 是一種慣例而非標準，因為太常使用且容易辨識故廣受歡迎
+需先宣告
+
+function $(x）{
+	return document.getElementById（x）;
+}
+
+也可自訂常用函數
