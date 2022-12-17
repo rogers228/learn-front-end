@@ -1,0 +1,4 @@
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+/w3schools/	    正則表達式 使用左斜線包住
+/w3schools/i	正則表達式 使用左斜線包住最後i 代表不區分大小寫
