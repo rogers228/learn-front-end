@@ -1,0 +1,5 @@
+
+window.location.href = myurl; // 前往網址
+
+
+history.pushState({}, null, myurl);  // 僅改變網址
