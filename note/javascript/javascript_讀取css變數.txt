@@ -1,0 +1,16 @@
+js讀取css變數
+
+css
+
+:root{ 
+  --data-mobile_width: #{$mobile_width};    // 轉為手機排版的寬度
+  --data-sider_width: #{$sider_width};
+  --data-zindex_layout1: #{$zindex_layout1}; // layout1 預設z-index
+  --data-zindex_layout4: #{$zindex_layout4}; // layout4 預設z-index  
+  --data-zindex_mobile_bottombar: #{$zindex_mobile_bottombar}; // layout1 預設z-index  
+}
+
+
+js
+
+let mobile_width = getComputedStyle(document.documentElement).getPropertyValue('--data-mobile_width');
