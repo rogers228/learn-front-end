@@ -9,6 +9,10 @@ element.className = "";
 document.getElementById(btnid).classList.add("selected");
 有add, remove, toggle 
 
+或者使用 也很清楚
+btn.className += " disabled";  // 注意有字串首空格
+
+
 添加多個
 document.getElementById( "myDIV" ).classList.add( "mystyle" , "anotherClass" , "thirdClass" );
 
