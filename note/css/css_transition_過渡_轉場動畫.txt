@@ -5,3 +5,35 @@ https://www.w3schools.com/css/css3_transitions.asp
 
 flymenu範例
 https://codepen.io/alvarotrigo/pen/NWyqRvq
+
+
+
+
+animation-name: sight_1  // 動畫名稱
+animation-duration: 5s  // 動畫時間
+animation-delay: 1s // 延遲時間
+animation-iteration-count  // 重複
+animation-direction // 運行順序方向
+animation-timing-function: ease|linear|ease-in|ease-out|ease-in-out // 動作時間線
+    https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation_direction
+animation-fill-mode:forwards // none|forwards|backwards|both 保留樣式的特殊模式
+animation 
+
+
+// 動畫
+@keyframes sight_1{
+    0% {
+        background-size: 100% auto;
+    }
+    100% {
+        background-size: 120% auto;
+    }
+}
+
+
+none|forwards|backwards|both
+
+none - Default value. Animation will not apply any styles to the element before or after it is executing
+forwards - The element will retain the style values that is set by the last keyframe (depends on animation-direction and animation-iteration-count)
+backwards - The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period
+both -
