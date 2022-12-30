@@ -1,0 +1,15 @@
+html標籤_小寫為普通標籤_大駝峰為Components
+
+html標籤名稱以小寫為主
+
+html標籤名稱為大駝峰時，則代表Components
+
+const element = <div />;
+
+const element = <Welcome name="Sara" />;
+
+以上代表Components  name="Sara" 為props
+function Welcome(props){
+	
+
+}

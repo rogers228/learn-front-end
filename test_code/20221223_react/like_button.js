@@ -4,16 +4,16 @@ function LikeButton(props) {
     let result;
     if (liked) {
     	result = (
-            <button onClick={() => setLiked(false)}>
-                No Like
-            </button>
+            React.createElement("button", {onClick: () => setLiked(false)}, 
+                "No Like"
+            )
 	    )
     }
     else{
     	result = (
-            <button onClick={() => setLiked(true) }>
-                Like
-            </button>
+            React.createElement("button", {onClick: () => setLiked(true)}, 
+                "Like"
+            )
 	    )
     }
     return result;

@@ -1,0 +1,7 @@
+Components 就是ui組件
+
+Components命名使用大駝峰
+大駝峰就是首字大寫其他單字首也都大寫
+
+html標籤名稱以小寫為主
+html標籤名稱為大駝峰時，則代表Components

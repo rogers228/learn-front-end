@@ -1,0 +1,3 @@
+jsx_寫在html標籤裡的js表達式或變數使用大括號包住
+
+return <h1>Hello, {props.name}</h1>;

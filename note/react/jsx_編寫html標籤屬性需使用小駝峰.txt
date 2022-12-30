@@ -1,0 +1,12 @@
+jsx_編寫html標籤屬性需使用小駝峰
+
+例如
+<button onclick="test()"></button>
+
+<button onClick="test()"></button>
+
+onClick 必需使用小駝峰 否則react無法讀取
+
+
+標籤使用小寫開頭
+小駝峰就是首字小寫其他單字首也都大寫

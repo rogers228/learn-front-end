@@ -1,0 +1,6 @@
+jsx 是可以同時編寫html 及 javascript
+以下關鍵字衝突 應修改寫法
+
+javascript class沿用 html class改用className 小駝峰
+
+
