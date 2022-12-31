@@ -1,0 +1,19 @@
+function component
+
+像一個函數寫法的UI組件
+運作概念就像函數一樣簡單
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+
+props 引數 參數值
+他是一個object, key value s 可以多個 在外部指定名稱
+
+他在function內是唯讀的 不能修改
+相同引數 一定會返回相同的值
+因為其作用僅在funcion內部，不受外界引響，除非接收其他類似全域變數
+
+
+跟函數運作原理一致
