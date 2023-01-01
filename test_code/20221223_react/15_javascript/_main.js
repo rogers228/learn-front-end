@@ -12,5 +12,5 @@ function $(x){
 }
 
 function after_load_handler(){
-	render_LikeButton();
+	// render_LikeButton();
 }

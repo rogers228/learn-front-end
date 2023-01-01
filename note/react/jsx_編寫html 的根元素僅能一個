@@ -1,0 +1,11 @@
+jsx_編寫html 的根元素僅能一個
+
+通常使用div包住即可
+
+return(
+	<div>
+		<tag1></tag1>
+		<tag2></tag2>
+		<tag3></tag3>
+	</div>
+)

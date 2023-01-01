@@ -4,9 +4,17 @@ app = Flask(__name__, template_folder='11_template')
 
 @app.route("/")
 def index():
-    # return 'hello flask'
-    return render_template('base.j2')
+    return 'hello flask'
 
+@app.route("/test1")
+def test1():
+    # return 'hello flask'
+    return render_template('test1.j2')
+
+@app.route("/test2")
+def test2():
+    # return 'hello flask'
+    return render_template('test2.j2')
 
 # cd /d C:\Users\USER\Documents\learn-front-end\test_code\20221223_react
 # set FLASK_APP=app
