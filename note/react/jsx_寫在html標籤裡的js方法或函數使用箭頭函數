@@ -1,0 +1,6 @@
+jsx_寫在html標籤裡的js方法或函數使用箭頭函數
+
+
+<button onClick={() => setLiked(false)}>
+    No Like
+</button>

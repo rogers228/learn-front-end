@@ -1,21 +1,14 @@
-//jkkkk
 function LikeButton(props) {
-    const [liked, setLiked] = React.useState(false);
-    let result;
-    if (liked) {
-    	result = (
-            <button onClick={() => setLiked(false)}>
-                No Like
-            </button>
-	    )
-    }
-    else{
-    	result = (
-            <button onClick={() => setLiked(true) }>
-                Like
-            </button>
-	    )
-    }
-    return result;
+    const [liked, setLiked] = React.useState('good');
+    let obj = {'good': 'Good', 'nogood': 'No Good'}
+
+    return (
+        <button onClick={()=> setLiked((liked == 'good')?'nogood':'good')}>
+            {obj[liked]}
+        </button>
+    )
 }
-ReactDOM.render(React.createElement(LikeButton), $('component-goes-here'));
+
+function render_LikeButton(){
+    ReactDOM.render(React.createElement(LikeButton), $('component-goes-here'));
+}

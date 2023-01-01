@@ -1,4 +1,6 @@
 
+// ----------component.js----------
+
 // ----------like_button.jsx----------
 function LikeButton(props) {
     const [liked, setLiked] = React.useState('good');
@@ -13,4 +15,23 @@ function LikeButton(props) {
 
 function render_LikeButton(){
     ReactDOM.render(React.createElement(LikeButton), $('component-goes-here'));
+}
+
+
+// ----------main.js----------
+;(function (){
+    main();
+})();
+
+function main(){
+	console.log('main')
+	window.addEventListener("DOMContentLoaded", after_load_handler);
+}
+
+function $(x){
+	return document.getElementById(x);
+}
+
+function after_load_handler(){
+	render_LikeButton();
 }
