@@ -12,4 +12,4 @@ def index():
 # set FLASK_APP=app
 # set FLASK_ENV=development
 # python310 -m flask run --port=8239
-# 安裝多版本python時 將python.exe 先改名為 python310.exe
+# 安裝多版本python時 將python.exe 複製一個改名為 python310.exe 來執行

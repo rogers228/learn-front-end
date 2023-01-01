@@ -1,0 +1,16 @@
+Hook 鉤子有以下
+
+
+
+function Example() {
+	const [count, setCount] = useState(0);
+
+}
+
+const [count, setCount]
+使用array包住 同時設定2個變數
+
+一個小寫     name      變數名
+一個小駝峰   setName   set方法
+ss
+useState(argv)  狀態  argv: 指定預設值

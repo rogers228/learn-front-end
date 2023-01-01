@@ -1,0 +1,10 @@
+render_使用root.render()
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+建立react 虛擬dom
+
+root.render(element) //開始渲染
+
+// element 是一個function component
+

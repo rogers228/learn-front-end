@@ -1,6 +1,22 @@
 jsx_寫在html標籤裡的js方法或函數使用箭頭函數
+或函數名
 
+event使用小駝峰 而且沒有字串
+內容以大括號包住  裡面為js表達式
+通常裡面為 函數名 沒有括號
+或 箭頭函數(可寫內容)
 
 <button onClick={() => setLiked(false)}>
     No Like
 </button>
+
+
+<button onClick={setLiked}>
+    No Like
+</button>
+
+
+html
+<button onclick="activateLasers()">
+event小寫onclick
+內容為字串

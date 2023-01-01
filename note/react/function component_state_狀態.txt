@@ -1,0 +1,8 @@
+function component_state
+
+state 屬於私有 完全屬於 function component 的
+完全由 component 控制
+
+
+props 是由component 外部控制
+state 是由component 內部自由使用

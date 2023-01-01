@@ -1,0 +1,15 @@
+https://reactjs.org/docs/hooks-intro.html
+
+Hook 鉤子
+代表用鉤子 勾到東西
+應該是說在function component裡
+還可以拿到任何其他component裡的狀態，不需要重寫組件
+很像函數裡可去取用 公用變數
+Hook  讓 component 不用使用class降低門檻
+
+
+Hook 鉤子有以下
+
+useState  使用狀態
+
+
