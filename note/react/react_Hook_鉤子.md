@@ -10,12 +10,18 @@ Hook  讓 component 不用使用class降低門檻
 
 ## Hook 鉤子有以下
 
-useState()   使用狀態 this is function 
-useEffect()  使用效過 this is method
+| hook name   | 用途 |
+| ----------- | ------------- |
+| useState()  | 使用狀態  |
+| useEffect() | 使用效果  |
+| 自定義 hook  | 共用邏輯    |
+| useContext()  | 傳遞資料  |
+
+
 
 
 ## 使用時機
-1. hook 應寫在最頂層，保證每次一定會執行到。就算內容是空的
+1. hook 應寫在函數的最頂層，保證每次一定會執行到。就算內容是空的
 2. 僅在function commponent(jsx) 及 自定義hook function 使用，避免再以外的其他javascript function，會引發不如預期的錯誤，難以控制。
 
 ## 沒有寫在頂層的範例
