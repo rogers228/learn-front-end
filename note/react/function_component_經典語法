@@ -1,0 +1,21 @@
+function_component_經典語法
+
+function Example() {
+  // 宣告狀態
+  const [count, setCount] = useState(0); 
+
+  // 渲染後執行的效果 或 渲染後執行事件
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
+
+  // 輸出 html
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}

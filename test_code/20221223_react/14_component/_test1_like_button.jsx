@@ -1,5 +1,5 @@
 function LikeButton(props) {
-    const [liked, setLiked] = React.useState('good');
+    const [liked, setLiked] = useState('good');
     let obj = {'good': 'Good', 'nogood': 'No Good'}
 
     return (
@@ -9,6 +9,3 @@ function LikeButton(props) {
     )
 }
 
-function render_LikeButton(){
-    ReactDOM.render(React.createElement(LikeButton), $('component-goes-here'));
-}

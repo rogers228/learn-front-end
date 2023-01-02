@@ -1,8 +1,10 @@
 from react import jsx
 import os
 from functools import partial
+import PySimpleGUI as sg
 from config import *
 
+sg.theme('SystemDefault')
 code_jsx_path = partial(os.path.join, PATH_JSX)
 code_js_path = partial(os.path.join, PATH_JAVASCRIPT)
 
@@ -21,8 +23,11 @@ def compile_jsx():
 		f.write(js)
 
 def main():
-	compile_jsx()
-	print('compile jsx finished')
+	try:
+		compile_jsx()
+		print('compile jsx finished')
+	except:
+		sg.popup_error('compile jsx is error!')
 
 if __name__ == '__main__':
 	main()

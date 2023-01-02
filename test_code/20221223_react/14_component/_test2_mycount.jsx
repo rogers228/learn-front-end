@@ -1,5 +1,9 @@
 function Mycount(){
-	const [count, setCount] = React.useState(0);
+	const [count, setCount] = useState(0);
+
+	useEffect(()=>{
+		document.title = `You clicked ${count} times`;
+	});
 
 	function add_count(){
 		return setCount(count +1);
@@ -13,8 +17,4 @@ function Mycount(){
 			</button>
 		</div>
 	)
-}
-
-function render_Mycount(){
-    ReactDOM.render(React.createElement(Mycount), $('mycount'));
 }

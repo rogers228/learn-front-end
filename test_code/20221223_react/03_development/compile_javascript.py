@@ -1,4 +1,5 @@
 import os
+import PySimpleGUI as sg
 from functools import partial
 from config import *
 
@@ -19,8 +20,11 @@ def compile_javascript_full():
 		f.write(js)
 
 def main():
-	compile_javascript_full()
-	print('compile javascript finished')
+	try:
+		compile_javascript_full()
+		print('compile javascript finished')
+	except:
+		sg.popup_error('compile javascript_full is error!')
 
 if __name__ == '__main__':
 	main()

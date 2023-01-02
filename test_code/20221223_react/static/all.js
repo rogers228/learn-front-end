@@ -3,7 +3,7 @@
 
 // ----------test1_like_button.jsx----------
 function LikeButton(props) {
-    const [liked, setLiked] = React.useState('good');
+    const [liked, setLiked] = useState('good');
     let obj = {'good': 'Good', 'nogood': 'No Good'}
 
     return (
@@ -13,13 +13,14 @@ function LikeButton(props) {
     )
 }
 
-function render_LikeButton(){
-    ReactDOM.render(React.createElement(LikeButton), $('component-goes-here'));
-}
 
 // ----------test2_mycount.jsx----------
 function Mycount(){
-	const [count, setCount] = React.useState(0);
+	const [count, setCount] = useState(0);
+
+	useEffect(()=>{
+		document.title = `You clicked ${count} times`;
+	});
 
 	function add_count(){
 		return setCount(count +1);
@@ -35,16 +36,36 @@ function Mycount(){
 	)
 }
 
-function render_Mycount(){
-    ReactDOM.render(React.createElement(Mycount), $('mycount'));
-}
-
 
 // ----------main.js----------
 ;(function (){
     main();
 })();
 
+
+function after_load_handler(){
+	// render_LikeButton();
+}
+
+// ----------tool_react.js----------
+function render(component, element_id){
+	// react render function component
+	// component: function component
+	// element_id
+    ReactDOM.render(
+    	React.createElement(component),
+    	document.getElementById(element_id));
+}
+
+function useState(x){
+	return React.useState(x);
+}
+
+function useEffect(x){
+	return React.useEffect(x);
+}
+
+// ----------tool_str.js----------
 function main(){
 	console.log('main')
 	window.addEventListener("DOMContentLoaded", after_load_handler);
@@ -52,8 +73,4 @@ function main(){
 
 function $(x){
 	return document.getElementById(x);
-}
-
-function after_load_handler(){
-	// render_LikeButton();
 }

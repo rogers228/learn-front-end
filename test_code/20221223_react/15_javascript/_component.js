@@ -1,7 +1,7 @@
 
 // ----------test1_like_button.jsx----------
 function LikeButton(props) {
-    const [liked, setLiked] = React.useState('good');
+    const [liked, setLiked] = useState('good');
     let obj = {'good': 'Good', 'nogood': 'No Good'}
 
     return (
@@ -11,13 +11,14 @@ function LikeButton(props) {
     )
 }
 
-function render_LikeButton(){
-    ReactDOM.render(React.createElement(LikeButton), $('component-goes-here'));
-}
 
 // ----------test2_mycount.jsx----------
 function Mycount(){
-	const [count, setCount] = React.useState(0);
+	const [count, setCount] = useState(0);
+
+	useEffect(()=>{
+		document.title = `You clicked ${count} times`;
+	});
 
 	function add_count(){
 		return setCount(count +1);
@@ -31,8 +32,4 @@ function Mycount(){
 			)
 		)
 	)
-}
-
-function render_Mycount(){
-    ReactDOM.render(React.createElement(Mycount), $('mycount'));
 }
