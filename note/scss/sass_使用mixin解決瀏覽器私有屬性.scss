@@ -1,0 +1,29 @@
+//sass_使用mixin解決瀏覽器私有屬性
+
+@mixin backface-visibility {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+}
+
+.parent {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+
+	@include backface-visibility; // 呼叫
+}
+
+//帶參數
+@mixin backface-visibility($visibility) {
+// @mixin backface-visibility($visibility: hidden) //帶預設值
+	backface-visibility: $visibility;
+	-webkit-backface-visibility: $visibility;
+	-moz-backface-visibility: $visibility;
+	-ms-backface-visibility: $visibility;
+	-o-backface-visibility: $visibility;
+}
+
+@include backface_visibility(hidden); //呼叫(帶參數)

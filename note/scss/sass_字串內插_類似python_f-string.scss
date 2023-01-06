@@ -1,0 +1,10 @@
+// sass_字串內插_類似python_f-string
+
+// fdfafd{variable}fadsf' //python字串內插入變數
+
+@mixin photo-content($file) {
+	// 採用 #{ variable }
+	// 採用 #{ $file }
+	content: url(#{$file}.jpg);
+	object-fit: cover;
+}
