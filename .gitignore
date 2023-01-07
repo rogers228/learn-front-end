@@ -1,3 +1,4 @@
 # 忽略資料夾
 test/
 config.py
+node_modules/
