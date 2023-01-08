@@ -4,6 +4,7 @@
 		<meta charset = "utf-8">
 		<meta name = "keywords" content = "HTML,ASP">
 		<script src="js/JavaScript.js"></script>
+        <link rel="stylesheet" href="https://路徑名稱/style.css">
 		<title>Simple Html Page</title>
 	</head>
 	<body>

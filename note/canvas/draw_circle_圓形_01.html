@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="canvas_style.css">
+    </head>
+    <body>
+        <canvas id="canvas" width="600" height="400"></canvas>
+    </body>
+
+<script>
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d"); //建立內容畫布2d
+
+    //圓形  圓弧
+
+    //arc(x,y,r半徑,startangle,endangle 角度) 
+    //使用徑度(0~2pi) * Math.PI
+    
+    ctx.beginPath(); //開始畫線
+    ctx.arc(100,100,30,0,360)
+    ctx.stroke();   //結束畫線
+</script>
+</html>

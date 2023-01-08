@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="canvas_style.css">
+    </head>
+    <body>
+        <canvas id="canvas" width="600" height="400"></canvas>
+    </body>
+
+<script>
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d"); //建立內容畫布2d
+
+    //矩形
+    ctx.fillStyle = "#FF0000"; 
+    ctx.fillRect(0,0,150,75);
+
+</script>
+</html>

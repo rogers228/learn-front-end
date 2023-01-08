@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="canvas_style.css">
+    </head>
+    <body>
+        <!-- 必須定義 width height -->
+        <canvas id="canvas" width="600" height="400"></canvas> 
+    </body>
+
+<script>
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d"); //建立內容畫布
+
+    // 左上為0,0 往右及往下增加
+    ctx.beginPath(); //開始畫線
+    ctx.moveTo(0,0);
+    ctx.lineTo(450,200);
+    ctx.stroke();   //結束畫線
+
+</script>
+</html>
