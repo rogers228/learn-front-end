@@ -1,0 +1,5 @@
+        const obj = JSON.parse(localStorage.getItem('pdnos_obj'))
+        let clonedObj = { ...obj };
+
+
+        // 複製物件後 再進行操作
