@@ -1,5 +1,6 @@
 # Pug概念
 
+pug 原來稱為jade 
 https://www.shirohana.me/blog/articles/2020-mastery-pug-template-engine/
 他是一個可以用在Express的模板引擎
 他就像python使用flask作為框架，flask使用jinja2作為模板引擎
@@ -7,6 +8,8 @@ https://www.shirohana.me/blog/articles/2020-mastery-pug-template-engine/
 
 
 他是一個html的前處理
+
+使用node express 不需要事先編譯
 
 
 
