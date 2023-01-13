@@ -1,7 +1,14 @@
 doctype html
 html(lang="en")
   head
-    include javascript_main.pug
+    include meta.pug
     title= title
+    link(rel='stylesheet', href='/css/all.css')/
+    include javascript_main.pug
   body
-    h1.h1= message
+    header
+    #layout1_1.layout1
+        h1.h1= message
+    #layout1_2.layout1
+    #layout1_3.layout1
+    footer    

@@ -4,6 +4,9 @@ title development_for_react
 rem 同步 template
 cd /d C:\Users\USER\Documents\learn-front-end\test_code\20230121_react\11_template
 python sync_template.py
+rem 編譯 scss
+cd /d C:\Users\USER\Documents\learn-front-end\test_code\20230121_react\13_scss
+python compile_scss.py
 cd /d C:\Users\USER\Documents\learn-front-end\test_code\20230121_react\46_web
 echo on
 node index.js

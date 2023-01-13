@@ -17,3 +17,5 @@ npm install nodemon -g
 ```
 nodemon index.js
 ```
+
+自己寫autohotkey自己掌握重新啟動的時機會更好

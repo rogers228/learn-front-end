@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-cli": "^1.0.0-alpha6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.2"
   }
 }
