@@ -1,0 +1,2 @@
+const elements = document.querySelectorAll("[id^='tour_img_']");   // id以特定字開頭
+console.log(elements);
