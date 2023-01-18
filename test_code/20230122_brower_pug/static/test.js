@@ -10,7 +10,7 @@ function test(){
             div#hgj hi`
 
     // pug以縮排為主 使用字串拼接很容易出錯
-    // 再加上 remove_space方法 可去除多餘縮排空白符
+    // 再加上 remove_space方法 以首行為主 去除多餘縮排空白符
     // 讓pug開頭可以任意開頭，符合js風格
 
     let html = pug.render(remove_space(source)); // pug轉html
