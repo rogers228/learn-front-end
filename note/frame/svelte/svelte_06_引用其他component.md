@@ -2,7 +2,7 @@
 
 可以將其他component(svelte檔)，匯入引用
 
-```html
+```svelte
 <script>
     // 匯入component 為大駝峰命名
     // 

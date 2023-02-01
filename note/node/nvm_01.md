@@ -1,3 +1,24 @@
+# 下載安裝
+
+## 安裝nvm
+https://www.casper.tw/development/2022/01/10/install-nvm/
+
+## 安裝node及npm
+指定安裝本版，並設定本地版本，方可使用
+安裝完畢後，npm預設也安裝好了
+```
+nvm install 19.5.0
+nvm use 19.5.0 
+
+node -v 目前版本
+npm -v  目前版本
+nvm -v 目前版本
+```
+
+
+## 安裝npm
+
+
 # nvm常用指令
 
 1. nvm ls-remote：列出目前可用的遠端 Node.js 版本

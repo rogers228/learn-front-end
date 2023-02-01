@@ -4,7 +4,7 @@
 ## @html
 在變數名稱前加上 @html前綴修飾符
 
-```html
+```svelte
 <script>
     let string = `this string contains some <strong>HTML!!!</strong>`;
 </script>

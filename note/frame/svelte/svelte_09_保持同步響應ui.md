@@ -11,3 +11,21 @@ https://svelte.dev/tutorial/reactive-declarations
 
 同步變數 a = b
 只要等號右邊的值有異動，a就會改變，並且引用a的ui也會跟者連動，使其保持響應同步
+
+```svelte
+<script>
+    let count = 0;
+    $: doubled = count * 2; //同步修飾詞
+    
+    function handleClick() {
+        count += 1;
+    }
+
+</script>
+
+<button on:click={handleClick}>
+    Clicked {count} {count === 1 ? 'time' : 'times'}
+</button>
+<p>{count} doubled is {doubled}</p>
+```
+

@@ -4,7 +4,7 @@
 
 使用者只要專心業務邏輯即可
 
-```html
+```svelte
 <script>
     let count = 0;
 

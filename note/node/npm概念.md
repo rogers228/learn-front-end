@@ -4,6 +4,7 @@ pm是Node的套件管理器，如同pip是python的套件管理器
 
 # npm init
 初始化你的專案(建立json記錄檔)
+其實npm init就是建立一個專用的資料夾
 
 ```
 cd /d 你的目錄位置

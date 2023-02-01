@@ -2,7 +2,7 @@
 
 https://svelte.dev/tutorial/adding-data
 
-```html
+```svelte
 <script>
     let name = 'rogers'; //變數
 </script>
