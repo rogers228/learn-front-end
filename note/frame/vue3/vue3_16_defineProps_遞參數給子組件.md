@@ -17,7 +17,7 @@ const props = defineProps({
 2. 在本組件中引用子組件
 就是html tag寫法  參數 就是屬性的寫法
 
-```
+```vue
 <script setup>
 import { ref } from 'vue'
 import ChildComp from './ChildComp.vue'
