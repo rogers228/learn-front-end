@@ -2,3 +2,4 @@
 test/
 config.py
 node_modules/
+.vscode/
