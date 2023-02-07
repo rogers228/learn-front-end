@@ -1,0 +1,496 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hei",
+				"height"
+			],
+			[
+				"b",
+				"buttion"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"st",
+				"strip"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dist/index.html",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Preferences: LSP-volar Settings",
+				"Preferences: LSP-volar Settings"
+			],
+			[
+				"Preferences: LSP Settings",
+				"Preferences: LSP-volar Settings"
+			],
+			[
+				"prefreences: ls",
+				"Preferences: LSP-volar Settings"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"picp",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 142.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/建置環境/20230205_test/vue-project",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/建置環境/20230205_test/vue-project/src"
+	],
+	"file_history":
+	[
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_07_事件_event.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_16_遞參數給子組件.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_18_傳遞內容給子組件.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/建置環境/01_建置專案環境.md",
+		"/C/Users/USER/Documents/learn-front-end/.gitignore",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_04_reactive_ref_即時更新.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_17_defineEmits_子組件觸發事件_遞參數給父祖件.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_15_引用子compenent.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_16_defineProps_遞參數給子組件.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/建置環境/01_建置環境.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_14_watch監看.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_08_雙向綁定.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230128_proxy/index.j2",
+		"/C/Users/USER/Documents/learn-front-end/note/javascript/javascript_proxy_01_概念.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230128_proxy/static/test.js",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_12_onMounted事件.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/vue3/vue3_13_在script引用template.md",
+		"/C/Users/USER/Documents/learn-front-end/note/html/html_tag_pre_.md",
+		"/C/Users/USER/Documents/learn-front-end/note/javascript/javascript_變數是區分大小寫的.txt",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230128_proxy/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/svelte/svelte_08_數據即時響應ui.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/svelte/svelte_09_保持同步響應ui.md",
+		"/C/Users/USER/Documents/learn_kid/檔案02.md",
+		"/C/Users/USER/Documents/learn_kid/檔案.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/svelte/svelte_02_變數綁定引用.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/svelte/svelte_02_components.md",
+		"/C/Users/USER/Documents/learn-front-end/note/frame/svelte/svelte_01_概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/常用線上工具.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230126_youtube/index.j2",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230126_youtube/app.py",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230126_youtube/development.ahk",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230126_youtube/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230124_axios/index.j2",
+		"/C/Users/USER/Documents/learn-front-end/note/node/module_library/Axios/axios_02_get.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/module_library/Axios/axios_03_get_帶參數.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/module_library/Axios/axios_04_get_async_await寫法.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/module_library/Axios/axios_05_post.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/module_library/Axios/axios_06_response結構.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/module_library/Axios/axios_01_概念.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230123_base_example/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230123_base_example/development.ahk",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230124_axios/development.ahk",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230124_axios/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230123_base_example/index.j2",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/app.py",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230123_base_example/static/test.js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/index.j2",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/readme.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230123_base_example/readme.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/static/test.js",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_12_pug除了基於縮排也可以使用花括號.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_10_pug在flask使用.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_13_在python單獨使用pug.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/development.ahk",
+		"/C/Users/USER/Documents/learn-front-end/note/javascript/javascript_map加箭頭函數.txt",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/test.js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/index.html",
+		"/C/Users/USER/Documents/learn-front-end/note/jQuery/jquery_01_選擇器.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/app.py",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/02_development/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230122_brower_pug/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/03_development/development.bat",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/46_web/index.js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/架構.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_11_pug轉換html.md",
+		"/C/Users/USER/Documents/learn-front-end/note/常用線上工具",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_09_在前端瀏覽器產生html.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/11_template/index.pug",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/11_template/meta.pug",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/02_development/建立說明.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/13_scss/_layout1.scss",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/nodemon/nodemon概念.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/15_javascript/compile_javascript.py",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/13_scss/compile_scss.py",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/13_scss/all.scss",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/config.py",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_08_html轉jade.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_01_tag標籤.md",
+		"/C/Users/USER/Documents/learn-front-end/note/html/html_標準結構.txt",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/11_template/javascript_main.pug",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/46_web/views/index.pug",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_03_註解.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_07_傳入參數.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/11_template/sync_template.py",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/02_development/檔案說明.md",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/02_development/development.ahk",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/46_web/package.json",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/web/index.js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20230121_react/web/index,js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/架構.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_02_attr屬性.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_06_extends.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_05_Includes.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_04_特殊規定語法.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Pug/pug_01.md",
+		"/C/Users/USER/Documents/learn-front-end/note/Pug/pug概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/canvas/draw_rect_矩形_01.html",
+		"/C/Users/USER/Documents/learn-front-end/note/canvas/draw_line_01.html",
+		"/C/Users/USER/Documents/learn-front-end/note/canvas/draw_line_01 - 複製.html",
+		"/C/Users/USER/Documents/learn-front-end/note/node/test_pj/templates/base.mustache",
+		"/C/Users/USER/Documents/learn-front-end/note/canvas/draw_01.html",
+		"/C/Users/USER/Documents/learn-front-end/note/node/modiles/Mustache/Mustache概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/node概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/npm概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/Express概念.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/nvm_01.md",
+		"/C/Users/USER/Documents/learn-front-end/note/node/test_node/test1.js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/15_javascript/_main.js",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/14_component/_test2_mycount.jsx",
+		"/C/Users/USER/Documents/learn-front-end/note/react/function_component_基本寫法.md",
+		"/C/Users/USER/Documents/learn-front-end/note/react/react_Hook_useContext.md",
+		"/C/Users/USER/Documents/learn-front-end/note/react/react_Hook_鉤子.md",
+		"/C/Users/USER/Documents/learn-front-end/note/scss/sass_使用mixin解決瀏覽器私有屬性.scss",
+		"/C/Users/USER/Documents/learn-front-end/note/scss/sass_mixin範例.scss",
+		"/C/Users/USER/Documents/learn-front-end/note/scss/sass_字串內插_類似python_f-string.scss",
+		"/C/Users/USER/Documents/learn-front-end/note/react/react_Hook_useState.md",
+		"/C/Users/USER/Documents/learn-front-end/note/react/react_Hook_useEffect.md",
+		"/C/Users/USER/Documents/learn-front-end/note/react/function_component_經典語法.md",
+		"/C/Users/USER/Documents/learn-front-end/note/react/function_component_經典語法",
+		"/C/Users/USER/Documents/learn-front-end/note/react/function_component_基本寫法.txt",
+		"/C/Users/USER/Documents/learn-front-end/note/react/reack_Hook_自定義hook.md",
+		"/C/Users/USER/Documents/learn-front-end/note/react/react_Hook_鉤子.txt",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/15_javascript/_tool_react.js",
+		"/C/Users/USER/Documents/learn-front-end/note/react/react_Hook_useEffect.txt",
+		"/C/Users/USER/Documents/learn-front-end/note/react/jsx_線上編譯.txt",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/14_component/_test1_like_button.jsx",
+		"/C/Users/USER/Documents/learn-front-end/test_code/20221223_react/11_template/test1.j2"
+	],
+	"find":
+	{
+		"height": 29.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dist/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/main.js",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.3333333333
+	},
+	"input":
+	{
+		"height": 90.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "start_vue.sublime-project",
+	"replace":
+	{
+		"height": 54.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
