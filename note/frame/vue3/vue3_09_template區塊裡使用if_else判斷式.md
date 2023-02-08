@@ -4,7 +4,7 @@
 <h1 v-if="variable"> 判斷if true
 
 
-```vue
+```php
 <script setup>
 import { ref } from 'vue'
 
