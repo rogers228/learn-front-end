@@ -21,7 +21,7 @@ loop使用
 
 <ul>
 
-    {#each cats as cat}
+    {#each cats as cat (cat.id)}
     <!-- {#each cats as cat, i}  帶 item, index  -->
         <li><a target="_blank" href="https://www.youtube.com/watch?v={cat.id}" rel="noreferrer">
             {cat.name}

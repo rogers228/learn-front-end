@@ -7,7 +7,7 @@
 他是一個方法
 watch(variable, function)
 
-```vue
+```php
 <script setup>
 import { ref, watch } from 'vue'
 

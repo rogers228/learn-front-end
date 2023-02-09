@@ -2,6 +2,9 @@
 
 https://svelte.dev/tutorial/adding-data
 
+不需要特別宣告 就能夠使用
+
+
 ```svelte
 <script>
     let name = 'rogers'; //變數

@@ -1,7 +1,7 @@
 # 異步處理
 https://svelte.dev/tutorial/await-blocks
-js使用async, await之後，直接在html寫async, await語法即可
-
+js使用async, await之後，直接在template寫聲明式 async, await語法即可
+太棒了
 
 ```svelte
 <script>
