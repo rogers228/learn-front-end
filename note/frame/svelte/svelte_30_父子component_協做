@@ -1,0 +1,15 @@
+# 父子component_協做
+https://svelte.dev/tutorial/component-bindings
+
+
+## 父
+主事件處理函數
+
+
+## 子
+由子組件建立按鈕，故需要事件橋接器，按鈕觸發是子組件會連接到
+
+
+```
+<Keypad bind:value={pin} on:submit={handleSubmit}/>
+```

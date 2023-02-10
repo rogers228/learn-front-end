@@ -7,6 +7,7 @@ https://svelte.dev/tutorial/numeric-inputs
 
 也就是說variable也要跟input ui綁定，就成了雙向綁定
 它能達到input改變 variable跟著改變 ui跟改變
+也能綁2個input
 
 若無雙向綁定api則需要靠事件處理達成效果
 但因為這是常見的需求，就由框架處理了
