@@ -6,6 +6,8 @@ figure  完整區塊內容
 aside   側邊
 footer  尾部
 details 其他信息
+figure  圖像
+figcaption  圖像標題
 
 
 無意義結構標籤
