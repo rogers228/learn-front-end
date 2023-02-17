@@ -13,4 +13,4 @@ https://svelte.dev/tutorial/basics
 
 
 ## 線上svelte編程
-https://svelte.dev/
+https://svelte.dev/repl/hello-world
