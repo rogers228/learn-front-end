@@ -9,6 +9,7 @@ bind:  雙向綁定
 bind:this={}  綁定自己
 class:name={}   class綁定
 
+<<<<<<< Updated upstream
 $variable 訂閱store
 
 
@@ -30,3 +31,8 @@ transition:mathod         轉場
 transition:mathod="{}"   大括號內部為表達式
 in:mathod    針對進場
 out:mathod   針對退場
+=======
+
+
+<input on:keydown={handleKeydown}>
+>>>>>>> Stashed changes
