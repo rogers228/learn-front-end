@@ -1,7 +1,9 @@
 # svelte_api整理
+
+## 重要
 :冒號之後不能空白喔
 
-
+## 整理
 $:     最後執行
 $:{}   最後執行區塊
 on:    監聽事件
@@ -9,11 +11,11 @@ bind:  雙向綁定
 bind:this={}  綁定自己
 class:name={}   class綁定
 class:className(className_&_variable_boolean)
+sylye: 內置style屬性寫法
 
 
+## 特殊
 $variable 訂閱store
-
-
 
 
 ## 事件
@@ -37,6 +39,10 @@ out:mathod   針對退場
 use:mathod
 use:mathon="{argv}"
 
+<input on:keydown={handleKeydown}> 可省略""雙引號
 
-<input on:keydown={handleKeydown}>
+## svelte html teg
+<slot name="address">  插槽
 
+let:child_prop_value={variable_name}  接收子組件的參數
+{$$slots.name}檢查取得插槽內文

@@ -1,4 +1,7 @@
 # style_class屬性_boolean-class
+https://svelte.dev/tutorial/classes
+https://svelte.dev/tutorial/class-shorthand
+
 class做為一個html tag屬性當然可以使用表達式
 
 ```html
