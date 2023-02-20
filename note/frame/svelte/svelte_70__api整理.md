@@ -8,8 +8,9 @@ on:    監聽事件
 bind:  雙向綁定
 bind:this={}  綁定自己
 class:name={}   class綁定
+class:className(className_&_variable_boolean)
 
-<<<<<<< Updated upstream
+
 $variable 訂閱store
 
 
@@ -38,4 +39,4 @@ use:mathon="{argv}"
 
 
 <input on:keydown={handleKeydown}>
->>>>>>> Stashed changes
+

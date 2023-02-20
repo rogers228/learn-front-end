@@ -9,7 +9,7 @@ https://svelte.dev/tutorial/actions
 <div use:functionName on:outclick={() => (showModal = false)}></div>
 ```
 
-他的工作原理是讀取元素時，執行這個方法，
+他的工作原理是onload讀取元素時，執行這個方法，
 function 通常由外部獨立js，固需引用
 這樣一來就由外部js來做發揮了，有更多無限發揮的可能。
 
