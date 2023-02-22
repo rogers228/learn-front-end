@@ -18,6 +18,10 @@ cd /d C:\Users\user\Documents\Rogers\test_svelte
 ## 建立從template建立svelte
 在此稱my-svelte-project
 ```
+npm create svelte@latest my-app
+
+or
+
 npx degit sveltejs/template 20230221_svelte
 
 or
