@@ -47,7 +47,6 @@ npm run dev
 這可以使用瀏覽器在本地端開啟你的專案
 有任何修改，它將自動更新
 
-
 ## 編譯你的專案
 ```
 cd /d C:\Users\user\Documents\Rogers\test_svelte\my-svelte-project
@@ -58,7 +57,3 @@ npm run build
 
 ## 部屬
 將靜態文件部屬至server，這部分就不屬於前端的部分了
-
-
-
-

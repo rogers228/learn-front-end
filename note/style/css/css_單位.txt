@@ -11,3 +11,10 @@ vw   相對於螢幕寬度的百分比
 vh   相對於螢幕高度的百分比
 vmin  看vw或wh 誰最小
 vmax  看vw或wh 誰最大
+
+
+js取得元素 或 目前元素
+clientWidth 取得元素的寬度（含padding 不含 border）較少用
+clientHeight 取得元素的高度（含padding 不含 border）較少用
+offsetWidth 取得元素的寬度（包含 padding 和 border）
+offsetHeight 取得元素的高度（包含 padding 和 border）

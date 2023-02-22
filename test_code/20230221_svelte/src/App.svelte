@@ -1,30 +1,36 @@
 <script>
-	export let name;
+  import Root_style from './Root_style.svelte'
+  import { media } from './responsive.js';
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<Root_style>
+<div class="layout_base">
+  <div class="layout_g {$media.classNames}">
+    <header>header</header>
+    <footer>footer</footer>
+  </div>
+</div>
+</Root_style>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  .layout_base{
+    background-color: blue;
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .layout_g{
+    background-color: var(--color_test);
+    min-width: 50px; min-height: 50px;
+  }
+  .media-small{
+    width: 100%;
+  }
+  .media-large{
+    width: 95%;
+  }
+  .media-limit{
+    width: 1150px;
+  }
 </style>
