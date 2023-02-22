@@ -4,14 +4,15 @@
 </script>
 
 <Root_style>
-<div class="layout_base">
-  <div class="layout_g {$media.classNames}">
-    <header>header</header>
-    <footer>footer</footer>
+  <div class="layout_base">
+    <div class="layout_g {$media.classNames}">
+      <header>header</header>
+      <footer>footer</footer>
+    </div>
   </div>
-</div>
 </Root_style>
 
+<!-- style section cannot be folded -->
 <style>
   .layout_base{
     background-color: blue;
