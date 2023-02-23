@@ -12,7 +12,6 @@
   </div>
 </Root_style>
 
-<!-- style section cannot be folded -->
 <style>
   .layout_base{
     background-color: blue;
