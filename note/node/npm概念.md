@@ -28,3 +28,6 @@ npm install modname
 
 # 常用指令
 npm list
+
+## 更新npm
+npm install -g npm@9.5.1
