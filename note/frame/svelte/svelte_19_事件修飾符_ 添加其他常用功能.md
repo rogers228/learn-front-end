@@ -11,3 +11,7 @@
     Click me
 </button>
 ```
+
+
+once             僅執行一次
+preventDefault   抑制預設行為
