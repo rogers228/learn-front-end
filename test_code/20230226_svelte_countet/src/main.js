@@ -4,7 +4,8 @@
 // import App from './ex04_bind_checkbox.svelte';
 // import App from './ex04_bind_radio.svelte';
 // import App from './ex04_bind_this.svelte';
-import App from './ex05_store_derived.svelte';
+// import App from './ex05_store_derived.svelte';
+import App from './ex06_context.svelte';
 
 const app = new App({
 	target: document.body
