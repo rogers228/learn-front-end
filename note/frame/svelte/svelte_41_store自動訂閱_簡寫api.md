@@ -16,12 +16,22 @@ import { count } from './stores.js';
 <h1>The count is {countValue}</h1>
 ```
 
+# 在template
+
 使用$variable
-
-
 ```php
 <script>
 import { count } from './stores.js';
 </script>
 <h1>The count is {$count}</h1>
+```
+
+# 在script or {表達式}中
+使用get方法
+
+```php
+import { get } from 'svelte/store'
+
+//count為store
+console.log(get(count))
 ```
