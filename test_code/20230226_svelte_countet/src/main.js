@@ -8,7 +8,9 @@
 // import App from './ex06_context.svelte';
 // import App from './ex07_window.svelte';
 // import App from './ex08_body.svelte';
-import App from './ex09_head.svelte';
+// import App from './ex09_head.svelte';
+// import App from './ex10_ajax.svelte';
+import App from './ex11_ajax_store.svelte';
 
 const app = new App({
 	target: document.body
