@@ -12,7 +12,7 @@ bind:this={}  綁定自己
 class:name={}   class綁定
 class:className(className_&_variable_boolean)
 sylye: 內置style屬性寫法
-
+:global() 不處理class
 
 ## 特殊
 $variable 訂閱store
