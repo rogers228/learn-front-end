@@ -13,6 +13,7 @@ class:name={}   class綁定
 class:className(className_&_variable_boolean)
 sylye: 內置style屬性寫法
 :global() 不處理class
+:global{ } 全域  括號裡面可以寫css style
 
 ## 特殊
 $variable 訂閱store
