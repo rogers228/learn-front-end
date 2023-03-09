@@ -8,7 +8,7 @@ item      內元件
 container 外容器
 display: flex  流水排版
 
-flex-direction: row | row-reverse | column | column-reverse; 主軸方向(相對90度就是次軸)
+flex-direction: row | row-reverse | column | column-reverse; 主軸方向(相對90度就是次軸)  row水平 column垂直
 flex-wrap: nowrap | wrap | wrap-reverse; 換行模式  不換行 換行  換行時反轉
 flex-flow: <'flex-direction'> || <'flex-wrap'>  為以上兩個的縮寫  可同時設定兩個屬性
 
@@ -30,3 +30,9 @@ flex-shrink: 元件是否伸縮  1縮放(預設值)，0不縮放。
 flex-basis: 元件的基準值，可使用不同的單位值。
 flex:  <flex-grow> <flex-shrink> <flex-basis>
 align-self: 次軸的對齊 可以再次調整
+
+
+垂直排列
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
