@@ -1,0 +1,5 @@
+在svelte之外使用scss
+
+建議在外部使用scss，才能夠保留component style獨立隔絕的精神，
+
+使用獨立svelte以外的scss 編譯後再引用，這樣一來既可以保有svelte component獨立的精神，也能使用scss程式化的css寫法。
