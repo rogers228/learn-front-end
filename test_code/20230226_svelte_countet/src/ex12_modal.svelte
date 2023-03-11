@@ -1,24 +1,31 @@
 <script>
   import { onMount } from 'svelte';
+  import { close } from './ex12_modal'
   export let title = 'modal-title';
-  let isOpen = true;
 
-  $: {
-    // 開啟時鎖定body的scroll
-    if (isOpen){
-      document.body.classList.add('prevent-scroll');
-    }else{
-      document.body.classList.remove('prevent-scroll');
+  function handleKeydown(e){
+    // console.log('handleKeydown')
+    // console.log('e.keyCode:', e.keyCode)
+    if (e.keyCode === 81){ // q
+      close()
     }
   }
-</script>
-ex12
 
-<div class="modal-wrapper">
+
+</script>
+<svelte:body on:keydown = {handleKeydown} />
+
+<div class="modal-wrapper" on:click={(e) => {
+  // console.log('e.target:', e.target);
+  // console.log('e.currentTarget:', e.currentTarget)
+  if (e.target === e.currentTarget) {
+    close()
+  }
+  }}>
   <div class="modal">
     <div class="model-head">
       <h3 class = "title">{title}</h3>
-      <button type="button">&#10005;</button>
+      <button type="button" on:click={() => close()}>&#10005;</button>
     </div>
     <slot>
       Description
