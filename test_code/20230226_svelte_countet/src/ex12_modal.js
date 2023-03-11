@@ -5,6 +5,7 @@ export const modal = writable({
     title: null,
     component: null,
     params:{},
+    firstFocusElement: null,
 });
 
 export const open = (title, params={}, component) => modal.set({
@@ -12,6 +13,7 @@ export const open = (title, params={}, component) => modal.set({
     title,
     component,
     params,
+    firstFocusElement: document.activeElement,
 });
 
 export const close = () => modal.set({
@@ -19,4 +21,5 @@ export const close = () => modal.set({
     title: null,
     component: null,
     params: null,
+    firstFocusElement: null,
 })

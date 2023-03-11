@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import { fade, scale } from 'svelte/transition'
   import { close } from './ex12_modal'
   export let title = 'modal-title';
 
@@ -15,14 +16,14 @@
 </script>
 <svelte:body on:keydown = {handleKeydown} />
 
-<div class="modal-wrapper" on:click={(e) => {
+<div class="modal-wrapper" transition:fade on:click={(e) => {
   // console.log('e.target:', e.target);
   // console.log('e.currentTarget:', e.currentTarget)
   if (e.target === e.currentTarget) {
     close()
   }
   }}>
-  <div class="modal">
+  <div class="modal" transition:scale={{delay: 200}}>
     <div class="model-head">
       <h3 class = "title">{title}</h3>
       <button type="button" on:click={() => close()}>&#10005;</button>

@@ -7,6 +7,10 @@
 </script>
 
 <h1>hello {name} !</h1>
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>4</button>
 <Toggle />
 
 {#if $modal.status === 'opened'}
