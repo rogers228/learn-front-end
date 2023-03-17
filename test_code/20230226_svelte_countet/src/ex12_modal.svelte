@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { fade, scale } from 'svelte/transition'
-  import { close } from './ex12_modal'
+  import { modal, close } from './ex12_modal'
   export let title = 'modal-title';
 
   function handleKeydown(e){
