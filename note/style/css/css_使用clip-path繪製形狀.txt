@@ -1,0 +1,11 @@
+# 使用 clip-path 繪製形狀
+
+https://www.oxxostudio.tw/articles/201503/css-clip-path.html
+
+簡單來說它就是使用路徑來繪製型狀
+它的路徑是一每個點的x,y
+每個點的x,y 等同是div的left, top
+最常用的單位就是%
+
+
+它應該更容易使用
