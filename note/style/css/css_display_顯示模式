@@ -1,0 +1,10 @@
+# display 顯示模式
+https://ytclion.medium.com/css%E6%95%99%E5%AD%B8-%E9%97%9C%E6%96%BCdisplay-inline-inline-block-block%E7%9A%84%E5%B7%AE%E5%88%A5-1034f38eda82
+
+none   不顯示
+block  顯示   區塊模式
+inline 行內
+inline-block  顯示  行內-區塊
+flex   顯示   流水模式  細節請參閱flex流水排版
+
+overflow:hidden; //自動隱藏超出的文字或圖片。
