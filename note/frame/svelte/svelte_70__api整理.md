@@ -30,6 +30,8 @@ on:introend    動畫進場結束
 on:outrostart  動畫退場開始
 on:outroend    動畫退場結束
 
+on:animationend 元素的動畫結束
+
 ## 轉場
 transition:mathod         轉場
 transition:mathod="{}"   大括號內部為表達式
