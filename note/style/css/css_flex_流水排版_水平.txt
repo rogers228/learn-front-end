@@ -42,3 +42,9 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
+
+水平排列 左右分開
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
