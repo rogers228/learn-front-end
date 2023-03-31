@@ -7,7 +7,8 @@ position: static; (靜態定位)
 position: relative;   相對於正常(static)位置
 top: 40px; left: 40px;
 
-/絕對定位
+/絕對定位 (父元素 也要先定位才會生效)
+
 position: absolute;  相對於以定位的父元素  若父元素未定位 則 相對於html
 top: 40px; left: 40px;
 
