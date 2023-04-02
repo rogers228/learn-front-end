@@ -15,3 +15,8 @@ https://svelte.dev/tutorial/transition-events
     Flies in and out
 </p>
 ```
+
+
+動畫事件也可以使用
+on:animationstart
+on:animationend
