@@ -4,7 +4,7 @@ box-shadow:inset 0px 1px 0px 0px #00334d; //內部陰影白色 始得有立體�
 
 
 參數
-x水平  y垂直  蘊開  偏移  顏色
+x水平  y垂直  蘊開  偏移擴散  顏色
 
 inset 內部陰影
 
