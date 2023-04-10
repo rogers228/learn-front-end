@@ -20,9 +20,6 @@ flex-direction: row水平 | row-reverse水平反向 | column垂直 | column-reve
 主軸方向(相對90度就是次軸)
 
 
-
-
-
 ## flex-wrap 是否換行
 flex-wrap: nowrap | wrap | wrap-reverse; 換行模式  不換行 換行  換行時反轉
 
