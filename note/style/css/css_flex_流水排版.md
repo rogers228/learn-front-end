@@ -35,7 +35,6 @@ justify-content:
     space-around  分散(兩側有一點間隙約內部間隙的一半)
     space-evenly  分散平均間隙(兩側間隙與內部間隙相同)
 
-
 ## align-items 沿次軸排列方式
 align-items:
     flex-start |start |self-start 靠起始|
@@ -53,16 +52,12 @@ align-items:
 align-content: flex-start | flex-end | center | space-between | space-around |           stretch;  次軸對齊(對多個元素進行調整)
                 靠起始       靠末端     置中      靠兩側最大間隙  分散平均間隙(兩側有間隙)   拉伸跟隨以最大的item
 
-
-
 ## items 內元件
-
 flex-grow: 元件所伸展 預設值為0
 flex-shrink: 元件是否伸縮  1縮放(預設值)，0不縮放。
 flex-basis: 元件的基準值，可使用不同的單位值。
 flex:  <flex-grow> <flex-shrink> <flex-basis>
 align-self: 次軸的對齊 可以再次調整
-
 
 ## order 自訂排序
 有時候在container 外容器 設定reverse 反轉並不滿足需求，更需要的是各別設定順序,
