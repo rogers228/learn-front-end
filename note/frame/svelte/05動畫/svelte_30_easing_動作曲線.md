@@ -20,7 +20,7 @@ quadOut
 cubicOut
 quartOut
 quintOut
-expo
+expoOut
 circOut
 backOut
 elasticOut
