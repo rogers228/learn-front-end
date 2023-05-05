@@ -49,3 +49,7 @@ use:mathon="{argv}"
 
 let:child_prop_value={variable_name}  接收子組件的參數
 {$$slots.name}檢查取得插槽內文
+
+## svelte 綁定
+<svelte:window on:hashchange={after_hash} on:DOMContentLoaded={after_hash} />  綁定瀏覽器
+<svelte:document on:keydown={handleKeyDown} />  綁定整個文件
