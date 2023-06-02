@@ -53,7 +53,7 @@ align-content: flex-start | flex-end | center | space-between | space-around |  
                 靠起始       靠末端     置中      靠兩側最大間隙  分散平均間隙(兩側有間隙)   拉伸跟隨以最大的item
 
 ## items 內元件
-flex-grow: 元件所伸展 預設值為0
+flex-grow: 元件所伸展 預設值為0 1延展 0不延展
 flex-shrink: 元件是否伸縮  1縮放(預設值)，0不縮放。
 flex-basis: 元件的基準值，可使用不同的單位值。
 flex:  <flex-grow> <flex-shrink> <flex-basis>
