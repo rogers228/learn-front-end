@@ -29,9 +29,4 @@ svelte預設會採用開發模式，這會使得瀏覽器可以查看完整的�
 <script defer src='/build/bundle.js'></script>
 改為你的App.js即可，要注意路徑要對
 
-
-
-
-
-
 Regenerate response
