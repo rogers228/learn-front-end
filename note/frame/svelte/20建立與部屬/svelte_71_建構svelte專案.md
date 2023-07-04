@@ -22,7 +22,7 @@ npm create svelte@latest my-app
 
 or
 
-npx degit sveltejs/template 20230221_svelte
+npx degit sveltejs/template 41_svelte
 
 or
 
