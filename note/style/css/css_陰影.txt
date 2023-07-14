@@ -1,6 +1,8 @@
 box-shadow: 2px 4px #999; //陰影
 
 box-shadow:inset 0px 1px 0px 0px #00334d; //內部陰影白色 始得有立體感 !!
+            內部 水平 垂直 模糊 擴散
+
 
 
 參數
