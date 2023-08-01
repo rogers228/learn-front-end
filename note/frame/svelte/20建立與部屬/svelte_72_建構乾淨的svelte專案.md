@@ -7,7 +7,6 @@
 
 5. npm install rollup-plugin-svelte @rollup/plugin-node-resolve @rollup/plugin-commonjs  --save-dev
 6. 建立 rollup.config.mjs 
-
 7. 建立 src 資料夾 裡面建立main.js, app.svelte
 8. 建立 static 資料夾
 
