@@ -12,8 +12,8 @@
 
 
 
-# 編譯
+## 編譯
 將scr資料夾內所有的svelte編譯至static
-npx rollup -c -w    使用 npx rollup 打包 -c使用rollup.config.mjs配置 -w監控打包
+npx rollup -c -w    使用 npx rollup 打包 -c使用rollup.config.mjs配置 -w監控打包 
 npx rollup -c       使用 npx rollup 打包 -c使用rollup.config.mjs配置
 
