@@ -16,3 +16,9 @@ use
   }
 
 ```
+
+
+or
+```
+<h1 style:color='var(--test_color)'>{message}</h1>
+```
