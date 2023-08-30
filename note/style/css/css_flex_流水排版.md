@@ -76,7 +76,6 @@ align-self: 次軸的對齊 可以再次調整
 }
 ```
 
-
 垂直排列
 display: flex;
 flex-direction: column;
