@@ -35,6 +35,9 @@ justify-content:
     space-around  分散(兩側有一點間隙約內部間隙的一半)
     space-evenly  分散平均間隙(兩側間隙與內部間隙相同)
 
+    (以上分散時，父元素的長寬度應固定較大，否則無效)
+
+
 ## align-items 沿次軸排列方式
 align-items:
     flex-start |start |self-start 靠起始|

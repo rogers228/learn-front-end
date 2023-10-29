@@ -18,7 +18,7 @@ magenta
 black：黑色
 white：白色
 gray：灰色
-
+transparent: 透明
 
 
 
