@@ -3,7 +3,8 @@ active 滑鼠點選下去
 hover 滑鼠停在上面
 link 有超連結連結
 visited 拜訪過
-focus
+focus 具有焦點
+focus-visible  使用鍵盤具有焦點 例如用tab鍵移動到此，使其具有焦點。
 
 /* unvisited link */
 a:link {
@@ -27,5 +28,23 @@ a:active {
 
 
 
+還有其他元素動作
+first-child：選擇元素作為其父元素的第一個子元素。
 
+last-child：選擇元素作為其父元素的最後一個子元素。
 
+nth-child：根據指定的公式選擇元素作為其父元素的第n個子元素。
+
+nth-last-child：根據指定的公式選擇元素作為其父元素的倒數第n個子元素。
+
+nth-of-type：根據指定的公式選擇元素作為同類型元素中的第n個元素。
+
+nth-last-of-type：根據指定的公式選擇元素作為同類型元素中的倒數第n個元素。
+
+checked：選擇被選中的表單元素，比如<input>或<option>。
+
+disabled：選擇被禁用的表單元素。
+
+enabled：選擇可用的表單元素。
+
+empty：選擇不包含任何子元素或文字內容的元素。
