@@ -11,3 +11,19 @@ x > y{
 
 }
 ```
+
+
+
+```css
+/* 索引為1開始*/
+/* class x 底下的 第n個div*/
+
+```css
+.x div:nth-child(3){
+
+}
+
+/* class x 底下的 第3個div 底下第2個 div*/
+.x div:nth-child(3) div:nth-child(2)
+
+```
