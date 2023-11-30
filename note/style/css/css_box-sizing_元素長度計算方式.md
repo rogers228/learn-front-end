@@ -17,7 +17,7 @@
 
     box-sizing: border-box;
     
-    /* 管他 padding(內邊距) border(框線寬度) 我的寬度就是 200*/
+    /* 包含 padding(內邊距) border(框線寬度) 我的寬度就是 200*/
     width : 200px;
 
     /* margin 外邊距離是不包含的*/
