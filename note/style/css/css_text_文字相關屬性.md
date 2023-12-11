@@ -35,4 +35,10 @@
     /* 適合div作為按鈕時，不選取以免破壞樣式 */
     user-select: none;
 }
+
+
+.a{
+    -webkit-font-smoothing: antialiased; /* Chrome 和 Safari 抗鋸齒*/
+    -moz-osx-font-smoothing: grayscale; /* macOS 抗鋸齒*/
+}
 ```

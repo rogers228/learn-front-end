@@ -16,7 +16,6 @@ package.json
 ## 在svelte使用
 <style lang="scss"></style>
 
-
 ## 使用vite做為開發服務器的設定
 vite.config.js
 

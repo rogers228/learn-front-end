@@ -31,3 +31,15 @@ npm list
 
 ## 更新npm
 npm install -g npm@9.5.1
+
+## 檢查全局路徑
+npm root -g
+
+## 檢查全局第一層套件
+npm list -g --depth=0
+
+## 更新全局套件至特定版號
+npm install -g svelte@4.0.5
+
+## 從全局移除
+npm uninstall -g sirv-cli

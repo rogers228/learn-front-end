@@ -56,7 +56,7 @@ align-content: flex-start | flex-end | center | space-between | space-around |  
 
 ## items 內元件
 flex-grow: 元件所伸展 預設值為0 1延展 0不延展
-flex-shrink: 元件是否伸縮  1縮放(預設值)，0不縮放。
+flex-shrink: 元件是否內縮  1縮放(預設值)，0不縮放。
 flex-basis: 元件的基準值，可使用不同的單位值。
 flex:  <flex-grow> <flex-shrink> <flex-basis>
 align-self: 次軸的對齊 可以再次調整
