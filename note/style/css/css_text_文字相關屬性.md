@@ -19,6 +19,14 @@
 }
 ```
 
+## 抗鋸齒
+```css
+.a{
+    -webkit-font-smoothing: antialiased; /* Chrome 和 Safari 抗鋸齒*/
+    -moz-osx-font-smoothing: grayscale; /* macOS 抗鋸齒*/
+}
+```
+
 ## 底線
 ```css
 .a{
@@ -27,18 +35,20 @@
 }
 ```
 
+## 靠邊
+```css
+.a{
+    text-align: left;
+    text-align: right;
+    text-align: center;
+}
+```
 
-## 其他
+## 不可選取
 ```css
 .a{
     /* 文字不可選取  不會改變滑鼠圖示 */
     /* 適合div作為按鈕時，不選取以免破壞樣式 */
     user-select: none;
-}
-
-
-.a{
-    -webkit-font-smoothing: antialiased; /* Chrome 和 Safari 抗鋸齒*/
-    -moz-osx-font-smoothing: grayscale; /* macOS 抗鋸齒*/
 }
 ```
