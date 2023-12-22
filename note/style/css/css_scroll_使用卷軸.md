@@ -10,3 +10,17 @@ div {
 
 }
 ```
+
+
+```css
+.scroll_hidden{
+/*  隱藏 scroll*/
+  overflow: hidden;
+
+}
+```
+
+```js
+document.body.classList.add('scroll_hidden');    //對body添加 scroll_hidden
+document.body.classList.remove('scroll_hidden'); //對body移除 scroll_hidden
+```
