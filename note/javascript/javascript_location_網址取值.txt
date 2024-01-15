@@ -6,3 +6,6 @@ window.location.host =     css-tricks.com
 window.location.pathname = /example/index.html
 window.location.search =   ?s=flexbox
         location.hash  =   #about
+
+
+window.location.href;   所有文字

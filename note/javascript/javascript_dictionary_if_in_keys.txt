@@ -2,3 +2,13 @@ if (Object.keys(supply_dic).includes(supply)){
 }
 
 
+if ('page' in obj && 'source' in obj) {
+  // obj 同時包含 'page' 和 'source'
+  // 做你的處理
+}
+
+
+if (['page', 'source'].every(key => Object.keys(obj).includes(key))) {
+  // obj 同時包含 'page' 和 'source'
+  // 做你的處理
+}

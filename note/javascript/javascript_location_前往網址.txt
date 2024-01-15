@@ -2,4 +2,4 @@
 window.location.href = myurl; // 前往網址
 
 
-history.pushState({}, null, myurl);  // 僅改變網址
+history.pushState({}, null, myurl);  // 僅改變網址  可以實現無刷新的 URL 變更。
