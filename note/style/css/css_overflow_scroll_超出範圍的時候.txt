@@ -9,3 +9,4 @@ overflow:scroll; //自動產生捲軸。
 overflow:inherit; //繼承自父元素的可見性
 
 overflow-y: scroll; // y垂直方向 若資料超過高度時  自動顯示 scroll
+overflow-y: hidden;
