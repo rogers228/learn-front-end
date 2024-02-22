@@ -29,8 +29,15 @@ npm install modname
 # 常用指令
 npm list
 
+## 檢查當前npm版本
+npm --version
+
+## 檢查是否應該更新npm
+npm outdated -g npm
+
 ## 更新npm
 npm install -g npm@9.5.1
+npm install -g npm@10.4.0
 
 ## 檢查全局路徑
 npm root -g
