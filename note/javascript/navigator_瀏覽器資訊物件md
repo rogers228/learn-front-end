@@ -1,0 +1,11 @@
+`navigator` 物件具有許多常用的屬性，其中一些包括：
+
+1. `navigator.userAgent`: 返回用戶代理字符串，包含了瀏覽器的名稱、版本、作業系統等資訊。
+2. `navigator.platform`: 返回用戶正在運行的作業系統的名稱。
+3. `navigator.language`: 返回用戶的瀏覽器首選語言。
+4. `navigator.cookieEnabled`: 返回一個布林值，表示用戶瀏覽器是否啟用了 cookie。
+5. `navigator.onLine`: 返回一個布林值，表示用戶是否處於線上狀態（即是否連接到互聯網）。
+6. `navigator.geolocation`: 返回一個 Geolocation 物件，用於獲取用戶的地理位置資訊。
+7. `navigator.hardwareConcurrency`: 返回一個整數，表示用戶裝置的 CPU 核心數量。
+
+這些屬性提供了有關用戶瀏覽器和作業系統的相關資訊，讓開發者能夠根據用戶的環境進行相應的處理和優化。

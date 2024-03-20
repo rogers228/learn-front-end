@@ -46,3 +46,7 @@ manifest.json
 ```html
 <link rel="manifest" href="/manifest.json" />
 ```
+
+## 檢查
+使用chrome 開發者工具的選項中找到 Application tab，側邊第一個為 Manifest,
+裡面包含很多資訊可以檢視
