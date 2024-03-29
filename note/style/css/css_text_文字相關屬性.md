@@ -19,6 +19,13 @@
 }
 ```
 
+## 美化
+```css
+.a{
+    text-rendering: optimizelegibility;
+}
+```
+
 ## 抗鋸齒
 ```css
 .a{
