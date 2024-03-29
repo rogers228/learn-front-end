@@ -22,7 +22,7 @@
 ## 美化
 ```css
 .a{
-    text-rendering: optimizelegibility;
+    text-rendering: optimizelegibility; /* 可以減少毛邊 */
 }
 ```
 
