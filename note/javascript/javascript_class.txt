@@ -7,7 +7,7 @@ element.className = "";
 
 將html Element 的 class 當成list處理，更方便
 document.getElementById(btnid).classList.add("selected");
-有add, remove, toggle 
+有add, remove, toggle
 
 或者使用 也很清楚
 btn.className += " disabled";  // 注意有字串首空格
