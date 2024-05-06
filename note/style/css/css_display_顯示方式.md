@@ -23,10 +23,8 @@ display: inline
 display: inlineblock
 在文字內，的一個區塊， 其他文字會被推開
 
-
 ## contents 僅內容
 display: contents
-
 
 ## 其他相關
 overflow:hidden; //自動隱藏超出的文字或圖片。

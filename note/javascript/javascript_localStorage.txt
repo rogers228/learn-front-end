@@ -1,7 +1,0 @@
-localStorage.setItem(key, value)
-localStorage.getItem(key)
-localStorage.removeItem(key)
-
-if (localStorage.getItem("infiniteScrollEnabled") === null) {
-  //...
-}
