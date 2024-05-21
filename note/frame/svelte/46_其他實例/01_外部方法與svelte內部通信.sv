@@ -17,8 +17,8 @@ onMount(() => {
     img_obj.set(window.image_zoom); // store 預設值
 
     // global function 可全域,  svelte外部調用
-    // example: image_zoom({url: 'http://test'}); 引數位置可以隨意
-    window.image_zoom = function({is_show=true, scale=1, url=''}){
+    // example: image_zoom({url: 'http://test'}); 引數位置可以隨意 調用時使用冒號
+    window.image_zoom = function({is_show=true, scale=1, url=''}){ // 使用等號賦值 以利解構
         window.image_zoom = {is_show, url, scale }
         window.dispatchEvent(new CustomEvent('image_zoom_changed', { detail: window.image_zoom })); // 建立自訂事件 用來傳遞給svelte component
     }
