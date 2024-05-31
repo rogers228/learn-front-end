@@ -1,5 +1,7 @@
-cursor: pointer; // 手指
-user-select: none;
+cursor: pointer;   // 滑鼠指標為手指
+user-select: none; // 不可選取
+pointer-events: none; // 設定為非滑鼠目標
+
 
 適合div作為按鈕時，不選取以免破壞樣式
 
