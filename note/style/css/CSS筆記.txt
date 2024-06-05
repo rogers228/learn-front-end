@@ -5,6 +5,7 @@
 calc(100%-250px
 */
 
+* 所有，全站預設值
 . 代表Class
 # 代表id
 $ 宣告
@@ -18,7 +19,7 @@ $back_color:#1600DF; /*宣告公用變數?/
 	color:#1600DF;
 	font-size: 16px;
 	font-weight: 400;}
-	
+
 #id1{
 	color:#00ff00;
 	font-size: 16px;
