@@ -63,6 +63,7 @@
 ## 陰影
 ```css
 .a{
-    text-shadow:0px 1px 0px #ffffff; //文字陰影
+    text-shadow: 0px 1px 0px #ffffff; //文字陰影
+    text-shadow: none; // 無
 }
 ```
