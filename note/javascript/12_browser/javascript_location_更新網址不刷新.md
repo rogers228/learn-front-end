@@ -1,0 +1,1 @@
+history.pushState(null, '', url); // 更新網址 但不刷新
