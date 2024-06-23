@@ -54,3 +54,4 @@ npm install -g svelte@4.0.5
 
 ## 從全局移除
 npm uninstall -g sirv-cli
+
