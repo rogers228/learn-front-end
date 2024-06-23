@@ -31,13 +31,17 @@ npm list
 
 ## 檢查當前npm版本
 npm --version
+npm -v
 
 ## 檢查是否應該更新npm
 npm outdated -g npm
 
 ## 更新npm
+有時候更新時，node必須先更新
+
 npm install -g npm@9.5.1
 npm install -g npm@10.4.0
+npm install -g npm@10.8.1
 
 ## 檢查全局路徑
 npm root -g

@@ -7,7 +7,7 @@ https://www.casper.tw/development/2022/01/10/install-nvm/
 指定安裝本版，並設定本地版本，方可使用
 安裝完畢後，npm預設也安裝好了
 ```
-nvm install 19.5.0
+nvm install 19.5.0   (使用系統管理員執行命令視窗)
 nvm use 19.5.0 
 
 node -v 目前版本
