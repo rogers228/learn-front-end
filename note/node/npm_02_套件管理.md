@@ -10,9 +10,15 @@
 npm install
 
 將依據 package.json 安裝，但是不會自動更新喔
+更新完畢後，在其他電腦pull專案，一樣執行此命令，它就會根據 package.json 自動更新套件。
+
 
 ## 查看專案套件
 npm list
 
 ## 更新套件
 請參閱 npm_03_npm-check_專案下的套件更新.md
+
+
+
+

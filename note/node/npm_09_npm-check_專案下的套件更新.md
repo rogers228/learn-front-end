@@ -4,6 +4,8 @@
 https://www.youtube.com/watch?v=_4A4yAtYbvo
 https://www.npmjs.com/package/npm-check
 
+## 安裝
+npm install -g npm-check
 
 ## 常用指令
 命令行移動到專案下
