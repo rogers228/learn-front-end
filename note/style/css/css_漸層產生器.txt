@@ -1,2 +1,5 @@
 # 漸層產生器
 # http://www.colinkeany.com/blend/
+
+
+linear-gradient(90deg, #ff0000 0%, #0000ff 50%, #ad59fb 100%);
