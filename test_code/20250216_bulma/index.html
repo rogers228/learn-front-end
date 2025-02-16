@@ -7,42 +7,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
 </head>
 <body>
-  <!-- spacing 間距-->
 
-  <!--  
-      py: padding y方向(上與下都增加見距)
-      my: margan
-      y: 上下
-      x: 左右
-      t: top 上
-      b: bottom 下
-      l: left 左
-      r: right 右
-  -->
-  <h1 class="py-6 my-2">Hello, Bulma</h1>
-  <h1 class="px-4 mx-3 py-4">Hello, Bulma</h1>
-  <h1 class="mt-4 mr-4 pb-6 pl-3">Hello, Bulma</h1>
-  
-  <!--  section 段落-->
-  <section class="section">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius odio ad temporibus ab! Quibusdam beatae mollitia quidem facere nihil fuga sint ducimus neque. Quaerat dolores dicta nam sequi, alias reiciendis quas voluptate illo at quis eveniet recusandae corrupti maxime expedita!</p>
-  </section>
+  <nav class="navbar has-shadow is-white">
+    <!-- logo brand品牌 -->
+    <div class="navbar-brand">
+      <a href="" class="navbar-item">
+        <img src="assets/logo.png" alt="site logo" style="max-height: 70px;" class="py-2 px-2">
+      </a>
 
-  <!--  section 段落  加 container 容器-->
-  <!-- 
-    section 會自動添加一些間距
-    container 容器會盡量將內容保持在螢幕中央
-
-    若需要精細調整再使用 py my
-  -->
-
-  <section class="section">
-    <div class="container">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius odio ad temporibus ab! Quibusdam beatae mollitia quidem facere nihil fuga sint ducimus neque. Quaerat dolores dicta nam sequi, alias reiciendis quas voluptate illo at quis eveniet recusandae corrupti maxime expedita!</p>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-  </section>
-  <div class="section"></div>
-  <a class="is-primary"></a>
 
+    <div class="navbar-menu" id="navMenu">
+      <!-- right links -->
+      <div class="navbar-end">
+        <a class="navbar-item">My Account</a>
+        <a class="navbar-item">Shop Cart (0)</a>
+      </div>
+      
+    </div>
+  </nav>
+  <script src="index.js"></script>
 </body>
 </html>
