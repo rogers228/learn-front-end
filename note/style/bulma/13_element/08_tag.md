@@ -8,6 +8,4 @@ https://bulma.io/documentation/elements/tag/
 <span class="tag is-primary">Primary</span>
 ```
 
-is-primary
-is-*
-is-light 
+說明請直接查看 08_tag.html
