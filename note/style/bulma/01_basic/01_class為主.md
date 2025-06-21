@@ -1,3 +1,7 @@
+# class為主
+
+Bulma 使用「class-based」方式，所有樣式都需要手動加 class，例如 title 或 subtitle
+
 # BEM 命名規則
 
 BEM（Block-Element-Modifier）是一種命名規則與組織方式，用來撰寫結構清晰、可重複使用、好維護的 CSS 類別名稱。

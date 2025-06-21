@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>panel</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="columns">
+    <div class="column block is-one-third">
+            
+        <nav class="panel is-primary">
+          <p class="panel-heading">
+            群組標題
+          </p>
+
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="搜尋">
+              <span class="icon is-left">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </span>
+            </p>
+          </div>
+
+          <a class="panel-block is-active">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            所有內容
+          </a>
+
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            收藏項目
+          </a>
+
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-code-branch" aria-hidden="true"></i>
+            </span>
+            標籤分類
+          </a>
+
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-star" aria-hidden="true"></i>
+            </span>
+            重要內容
+          </a>
+
+          <div class="panel-block">
+            <button class="button is-link is-outlined is-fullwidth">
+              新增
+            </button>
+          </div>
+        </nav>
+    </div>
+
+    <div class="column block is-one-third">
+        <nav class="panel">
+          <p class="panel-heading">搜尋項目</p>
+          <div class="panel-block">
+            <input class="input" type="text" placeholder="輸入關鍵字">
+          </div>
+          <a class="panel-block">所有</a>
+          <a class="panel-block">進行中</a>
+          <a class="panel-block">已完成</a>
+        </nav>
+    </div>
+</div>
+
+</body>
+</html>

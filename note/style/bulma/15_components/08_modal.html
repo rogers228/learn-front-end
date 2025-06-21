@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>modal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <h2 class="title is-capitalized">modal </h2>
+  
+  <section class="box">
+    <p class="subtitle">modal</p>
+    <button class="button is-primary js-modal-trigger" data-target="modal">open modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <article class="message is-info">
+
+          <div class="message-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
+            nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus
+            diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac
+            <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+            sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a
+            neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          </div>
+        </article>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Functions to open and close a modal
+      function openModal($el) {
+        $el.classList.add('is-active');
+      }
+
+      function closeModal($el) {
+        $el.classList.remove('is-active');
+      }
+
+      function closeAllModals() {
+        (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+          closeModal($modal);
+        });
+      }
+
+      // Add a click event on buttons to open a specific modal
+      (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+        const modal = $trigger.dataset.target;
+        const $target = document.getElementById(modal);
+
+        $trigger.addEventListener('click', () => {
+          openModal($target);
+        });
+      });
+
+      // Add a click event on various child elements to close the parent modal
+      (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+        const $target = $close.closest('.modal');
+
+        $close.addEventListener('click', () => {
+          closeModal($target);
+        });
+      });
+
+      // Add a keyboard event to close all modals
+      document.addEventListener('keydown', (event) => {
+        if(event.key === "Escape") {
+          closeAllModals();
+        }
+      });
+    });     
+
+
+
+  </script>
+</body>
+</html>
