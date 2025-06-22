@@ -1,98 +1,39 @@
-# field
+# field 區塊
 
 https://bulma.io/documentation/form/general/
 
-表單容器，為了使所有裝置，所有瀏覽器相同，
-bulma使用 field 作為表單容器，control 做為控制項容器，使其風格統一
+field  他是一個區塊， 他不是form，也不是 control
+field  他是一個區塊，他通常包含了 label, control
+
+field 區塊，為了使所有裝置，所有瀏覽器相同，
+bulma使用 field 作為區塊，control 做為控制項容器，使其風格統一
+
+通常是垂直排列，水平排列請參閱下篇
+
 
 
 ```html
-<div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="Text input">
-  </div>
-</div>
-
-<div class="field">
-  <label class="label">Username</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-    <span class="icon is-small is-left">
-      <i class="fas fa-user"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-check"></i>
-    </span>
-  </div>
-  <p class="help is-success">This username is available</p>
-</div>
-
-<div class="field">
-  <label class="label">Email</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
-  </div>
-  <p class="help is-danger">This email is invalid</p>
-</div>
-
-<div class="field">
-  <label class="label">Subject</label>
-  <div class="control">
-    <div class="select">
-      <select>
-        <option>Select dropdown</option>
-        <option>With options</option>
-      </select>
+<form>
+  <div class="field">
+    <label class="label">使用者名稱</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="請輸入使用者名稱">
     </div>
   </div>
-</div>
 
-<div class="field">
-  <label class="label">Message</label>
-  <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
+  <div class="field">
+    <label class="label">密碼</label>
+    <div class="control">
+      <input class="input" type="password" placeholder="請輸入密碼">
+    </div>
   </div>
-</div>
+</form>
 
-<div class="field">
-  <div class="control">
-    <label class="checkbox">
-      <input type="checkbox">
-      I agree to the <a href="#">terms and conditions</a>
-    </label>
-  </div>
-</div>
-
-<div class="field">
-  <div class="control">
-    <label class="radio">
-      <input type="radio" name="question">
-      Yes
-    </label>
-    <label class="radio">
-      <input type="radio" name="question">
-      No
-    </label>
-  </div>
-</div>
-
-<div class="field is-grouped">
-  <div class="control">
-    <button class="button is-link">Submit</button>
-  </div>
-  <div class="control">
-    <button class="button is-link is-light">Cancel</button>
-  </div>
-</div>
 ```
+## 結構
 
-
-## 控制
-disabled 停用整個表單使用<fieldset disabled>...</fieldset>包裹整個表單
+form 表單 html tag
+  field  區塊
+    label   標籤
+    div.control  控制項(輸入框)
+      input   輸入框

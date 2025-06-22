@@ -1,3 +1,0 @@
-# 基礎範例
-
-https://github.com/aui/art-template/blob/master/example/web-art-syntax/basic.html

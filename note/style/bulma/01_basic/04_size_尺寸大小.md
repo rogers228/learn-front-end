@@ -4,11 +4,17 @@
 
 無特別樣式時 為預設size
 
+
 is-small   小號
 is-medium  中型 (比預設size略大)
 is-large   大型
 
 is-fullwidth 填滿父元素
+
+is-normal  強制為標準大小，有時候預設大小為較小時，可以使用此class來強制設定
+
+
+
 
 
 ## layout

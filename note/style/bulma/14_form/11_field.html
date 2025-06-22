@@ -10,98 +10,48 @@
 </head>
 <body>
 
-<div class="columns is-centered">
-  <div class="column is-two-thirds-desktop">
-    <p class="subtext">field表單容器</p>
-    <div class="box">
+  <div class="columns is-centered">
+    <div class="column is-two-thirds-desktop">
+      <p class="subtext">field 區塊</p>
 
-      <div class="field">
-        <label class="label">Name</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="Text input">
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-<div class="columns is-centered">
-  <div class="column is-two-thirds-desktop">
-    <p class="subtext">
-      漂亮的輸入框 左圖示 右圖示 也能使用 is-success, is-danger 來代表狀態 改變顏色
-    </p>
-    <div class="box">
-
-      <div class="field">s
-        <label class="label">Username</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-          <span class="icon is-small is-left">
-            <i class="fas fa-user"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-check"></i>
-          </span>
-        </div>
-        <p class="help is-success">This username is available</p>
-
-        <label class="label">Email</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-          <span class="icon is-small is-left">
-            <i class="fas fa-envelope"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-exclamation-triangle"></i>
-          </span>
-        </div>
-        <p class="help is-danger">This email is invalid</p>
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<div class="columns is-centered">
-  <div class="column is-two-thirds-desktop">
-    <p class="subtext">
-      disabled
-    </p>
-    <div class="box">
-      <fieldset disabled>
-        <div class="field">s
-          <label class="label">Username</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-            <span class="icon is-small is-left">
-              <i class="fas fa-user"></i>
-            </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-check"></i>
-            </span>
+      <form class="box"> 
+        <div class="field has-background-info-light">
+          <label class="label">使用者名稱</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="請輸入使用者名稱">
           </div>
-          <p class="help is-success">This username is available</p>
-
-          <label class="label">Email</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-            <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-          </div>
-          <p class="help is-danger">This email is invalid</p>
-
         </div>
-      </fieldset>
+
+        <div class="field">
+          <label class="label">密碼</label>
+          <div class="control">
+            <input class="input" type="password" placeholder="請輸入密碼">
+          </div>
+        </div>
+      </form>
+
 
     </div>
   </div>
-</div>
+
+  <div class="columns is-centered">
+    <div class="column is-two-thirds-desktop">
+      <p class="subtext">field區塊中 有兩個input</p>
+
+      <form class="box"> 
+        <div class="field is-grouped">
+          <div class="control">
+            <input class="input" type="text" placeholder="名">
+          </div>
+          <div class="control">
+            <input class="input" type="text" placeholder="姓">
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+
 </body>
 </html>
