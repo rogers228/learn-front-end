@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>textarea</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="columns is-centered">
+  <div class="column is-two-thirds-desktop">
+    <p class="subtext">textarea 多行文字框</p>
+    <div class="box">
+
+      <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered">
+  <div class="column is-two-thirds-desktop">
+    <p class="subtext">textarea 多行文字框 設定行數</p>
+    <div class="box">
+      <textarea
+        class="textarea is-success"
+        placeholder="10 lines of textarea"
+        rows="10"
+      ></textarea>
+
+    </div>
+  </div>
+</div>
+
+<div class="columns is-centered">
+  <div class="column is-two-thirds-desktop">
+    <p class="subtext">textarea 多行文字框 state</p>
+    <div class="box">
+
+      <label class="label">state Normal</label>
+      <div class="control">
+        <textarea class="textarea" placeholder="Normal textarea"></textarea>
+      </div>
+
+      <label class="label">state is-hovered</label>
+      <div class="control">
+        <textarea class="textarea is-hovered" placeholder="Normal textarea"></textarea>
+      </div>
+
+      <label class="label">state is-focused</label>
+      <div class="control">
+        <textarea class="textarea is-focused" placeholder="Normal textarea"></textarea>
+      </div>
+
+      <label class="label">state is-loading</label>
+      <div class="control is-loading">
+        <textarea class="textarea" placeholder="Normal textarea"></textarea>
+      </div>
+
+      <label class="label">state disabled</label>
+      <div class="control is-loading">
+        <textarea class="textarea" placeholder="Normal textarea" disabled></textarea>
+      </div>
+
+      <label class="label">state readonly</label>
+      <div class="control is-loading">
+        <textarea class="textarea" placeholder="Normal textarea" readonly>it is readonly</textarea>
+      </div>
+
+      <label class="label">state 固定不可調整 has-fixed-size</label>
+      <div class="control is-loading">
+        <textarea class="textarea has-fixed-size" placeholder="Normal textarea"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

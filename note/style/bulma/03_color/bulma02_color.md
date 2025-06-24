@@ -1,11 +1,12 @@
 # bulma color
 
-Primary（主要色）
-Link（連結色）
-Info（資訊色）
-Success（成功色）
-Warning（警告色）
-Danger（錯誤色）
+is-primary  基本的 標準的
+is-link     連結
+is-info     資訊
+is-success  成功
+is-warning  錯誤
+is-danger   危險
+
 
 ## 文字顏色
 class="has-text-primary"
