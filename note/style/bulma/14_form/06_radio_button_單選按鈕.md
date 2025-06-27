@@ -2,7 +2,7 @@
 
 https://bulma.io/documentation/form/radio/
 
-單選按鈕
+單選按鈕，它是一個多選一的控制項
 
 ```html
 <div class="control">
