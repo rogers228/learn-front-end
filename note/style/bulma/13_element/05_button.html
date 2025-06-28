@@ -3,11 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>button</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="/bulma-custom-full.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bulma-primary-h: 200deg;
+      --bulma-primary-s: 100%;
+      --bulma-primary-l: 30%;
+    }
+  </style>
 
 </head>
-<body>
+<body class="dev">
   <section class="box">
     <h2 class="subtitle is-capitalized">button</h2>
     <button class="button">Button</button>
@@ -34,7 +41,7 @@
     </div>
   </section>
 
-  <section class="box">
+  <section class="box is-bright1">
     <h2 class="subtitle is-capitalized">color 深淺</h2>
     <div class="buttons">
       <button class="button is-primary is-light">Primary</button>
@@ -56,7 +63,7 @@
   </section>
 
 
-  <section class="box">
+  <section class="box is-bright2">
     <h2 class="subtitle is-capitalized">size</h2>
     <button class="button is-small">Small</button>
     <button class="button">Default</button>

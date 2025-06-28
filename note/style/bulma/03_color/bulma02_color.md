@@ -20,3 +20,11 @@ class="button is-primary">
 
 # 自訂色
 可以使用scss來自訂顏色，一次改變整個網站
+
+## 顏色設定
+bulma 1.0以後 使用 SHL 顏色，也就是h色調，s飽和度，l亮度，
+#ff6600 已經不再支援，故修改顏色應使用
+hsl(24, 100%, 50%)
+$primary-h: 24;
+$primary-s: 100%;
+$primary-l: 50%;
