@@ -28,4 +28,8 @@ nvm -v 目前版本
 4. nvm alias default node：設定命令列預設開啟的 Node.js 版本
 5. nvm use：當前命令列套用特定版本的 Node.js
 
-nvm install 22.17
+# 使用nvm 更新node
+nvm list available   查看可安裝的所有版本
+nvm install 22.17  安裝node 最新版
+nvm use 22.17  切換node 最新版
+node -v 目前版本

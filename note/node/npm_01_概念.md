@@ -42,6 +42,7 @@ npm outdated -g npm
 npm install -g npm@9.5.1
 npm install -g npm@10.4.0
 npm install -g npm@10.8.1
+npm install -g npm@11.4.2
 
 ## 檢查全局路徑
 npm root -g
