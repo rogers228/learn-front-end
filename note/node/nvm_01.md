@@ -30,6 +30,6 @@ nvm -v 目前版本
 
 # 使用nvm 更新node
 nvm list available   查看可安裝的所有版本
-nvm install 22.17  安裝node 最新版
-nvm use 22.17  切換node 最新版
+nvm install 22.17.0  安裝node 最新版
+nvm use 22.17.0  切換node 最新版
 node -v 目前版本
