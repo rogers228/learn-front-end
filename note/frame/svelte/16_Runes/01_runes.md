@@ -4,9 +4,9 @@ Runes 是一個語法糖，使用$開不需要import
 Runes 是 svelte5 以後才有
 使用時需
 
+
 ```html
 <script>
-    @use runes;
     import { store_bookmarks } from './store_bookmarks.js';
     import { get } from 'svelte/store';
 </script>
@@ -33,7 +33,6 @@ Runes 是 svelte5 以後才有
 在svelte5只需要
 ```html
 <script>
-    @use runes; // ✅ Svelte 5 Runes 語法啟用
     import { get } from 'svelte';
     import { store_bookmarks } from './store_bookmarks.js';
 
