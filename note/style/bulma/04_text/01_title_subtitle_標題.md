@@ -15,4 +15,9 @@ https://bulma.io/documentation/elements/title/
 ## 控制
 .has-text-centered  置中
 .has-text-*
+.is-inline-block   抑制後方元素換行
 
+## 抑制block換行
+block 轉 inline
+block element 會換行，例如 h1-h6
+加上 is-inline-block 轉換為 inline-block

@@ -27,3 +27,20 @@ function func(obj) {
 // 範例使用
 func({ key1: 'value1', key2: 'value2', a: 1, b: 2 });
 ```
+
+## 預設值
+```js
+function printUserInfo({ name = 'Unknown', age = 0, email = 'N/A', ...rest }) {
+  console.log(`Name: ${name}`);
+  console.log(`Age: ${age}`);
+  console.log(`Email: ${email}`);
+  console.log('Other info:', rest);
+}
+
+預設值（避免 key 不存在時報錯）
+
+收集其他欄位到 rest（例如 gender）
+
+printUserInfo({ name: 'Bob', gender: 'male' });
+
+```
