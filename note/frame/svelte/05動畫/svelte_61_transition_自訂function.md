@@ -37,7 +37,7 @@ https://svelte.dev/examples/easing
     return { 
       delay,    // 延遲時間
       duration, // 持續時間，參數 與 key 為相同名稱時，可以省略 (同 duration: duration)
-      easing    // 使用 Svelte 內建的動畫曲線 
+      easing,     // 使用 Svelte 內建的動畫曲線 
       css: (t, u) => {
         // 根據 t 值計算當前的 x 位置和透明度
         const progress = 1 - t;
