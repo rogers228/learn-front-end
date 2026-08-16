@@ -84,3 +84,6 @@ export const cart = new CartState();
   <p>總金額：${cart.totalAmount}</p>
 </div>
 ```
+
+
+
