@@ -1,7 +1,10 @@
 # Responsive 響應式設計
 
-Mobile-First 思考方式與寫法
-Tailwind 的修飾符代表的是 min-width（大於等於），而不是固定範圍。
+
+# 核心規則：
+未加前綴代表手機端，
+加上前綴代表「螢幕寬度大於等於該尺寸時生效。
+
 
 # 斷點前綴
 
@@ -12,11 +15,6 @@ md 768px (48rem)@media (min-width: 768px)  { ... } 標準平板 (iPad)
 lg 1024px (64rem)@media (min-width: 1024px) { ... }筆記型電腦 (Laptop)
 xl 1280px (80rem)@media (min-width: 1280px) { ... }桌上型顯示器 (Desktop)
 2xl 1536px (96rem)@media (min-width: 1536px) { ... }大型或 4K 顯示器
-
-
-# 核心規則：
-1. 未加前綴的類別套用於所有螢幕（從最小的手機開始）。
-2. 加上前綴的類別 > 當螢幕達到該斷點（含）以上時覆蓋預設值。
 
 ❌ 常見錯誤思考（Desktop-First）
 
@@ -80,3 +78,8 @@ max-md:hidden   從0到最大768px 時隱藏
   --breakpoint-sm: 30rem;   /* 將 sm 從 640px 改為 480px */
 }
 ```
+
+
+## 由小到大寫響應式
+
+p-4 md:p-6 lg:p-10
