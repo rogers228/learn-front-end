@@ -1,11 +1,45 @@
+## colors 顏色
 
+https://tailwindcss.com/docs/colors
+
+
+
+## 顏色類型
 bg-sky-500（背景顏色）
-
 text-slate-800（文字顏色）    color
-
 border-slate-200（邊框顏色）  border-color
+outline-* 外輪廓
 
 
+
+## 顏色
+blue (藍色)：最常用的品牌主色、按鈕、連結（例：bg-blue-600）。
+indigo (靛青色 / 靛藍)：比 blue 更有質感與科技感（例：text-indigo-500）。
+sky (天藍色 / 淺藍)：爽朗、安全的視覺感受。
+cyan (青色 / 藍綠)：常用於科技感、數據圖表。
+red (紅色)：錯誤提示、刪除按鈕、警告（例：text-red-500）。
+amber (琥珀色 / 暖黃)：比純黃色更適合網頁閱讀的警告色（例：bg-amber-100）。
+orange (橘色)：活潑、吸引注意力的行動按鈕（CTA）。
+yellow (黃色)：警示、星星評分。
+
+green (綠色)：成功狀態、完成、安全（例：text-green-600）。
+emerald (祖母綠 / 翠綠)：現代 UI 設計非常受歡迎的高質感綠色。
+teal (藍綠色 / 鴨綠)：常用於醫療、健康、質感的品牌色。
+lime (萊姆綠 / 螢光綠)：高能量、潮牌、新銳設計感。
+purple (紫色)：創意、高貴、社群軟體（例：text-purple-500）。
+violet (羅蘭紫 / 偏藍紫)：極具現代感與高級感的紫色。
+fuchsia (洋紅色 / 桃紅)：亮眼、極具視覺衝擊力。
+pink (粉紅色)：浪漫、女性化、活潑標籤。
+rose (玫瑰紅)：
+slate (石板灰 - 帶冷藍調)：最推薦！科技感、預設的高級灰色（例：text-slate-700）。
+gray (標準灰 - 中性調)：最經典的通用灰色。
+zinc (鋅灰 - 微偏冷硬)：適合 Dark Mode（黑夜模式）或簡約工業風。
+neutral (純粹中性灰)：不帶任何色彩偏向。
+stone (暖石灰 - 帶暖黃/棕調)：適合復古、人文、溫暖風格。
+
+
+
+## 顏色階梯數值
 50 ~ 950
 
 500 中間值
@@ -29,6 +63,11 @@ border-slate-200（邊框顏色）  border-color
 | **Border**                   | `border-border` | 卡片、分隔線、通用區塊邊框。 |
 | **Input**                    | `border-input` | 表單輸入框（`<input>`、`<select>`）預設邊框。 |
 | **Ring**                     | `ring-ring` | 鍵盤 Focusing 或點擊時出現的外圍光環（Focus Ring）。 |
+
+
+## 調整不透明度
+
+bg-black/75
 
 
 
