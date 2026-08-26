@@ -45,9 +45,13 @@ xl 1280px (80rem)@media (min-width: 1280px) { ... }桌上型顯示器 (Desktop)
 ```
 
 
-## 斷點方向
-md:hidden       768px以上 時隱藏
-max-md:hidden   從0到最大768px 時隱藏
+## 預設顯示 768以下隱藏
+max-md:hidden
+
+## 預設隱藏 768以上顯示
+
+hidden md:block   
+hidden md:flex
 
 
 ### 記憶小撇步（白話翻譯）

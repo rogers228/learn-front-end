@@ -64,7 +64,7 @@ src/lib/components/ui/dialog/dialog-content.svelte
 
 ```
 npx shadcn-svelte@next init     最新版 不穩定
-npx shadcn-svelte@latest init   最後穩定版本
+.   最後穩定版本
 ```
 Which color would you like to use as base color? > 選擇底色 (建議 Slate 或 Zinc)
 Where is your global CSS file? > 預設 src/routes/layout.css
